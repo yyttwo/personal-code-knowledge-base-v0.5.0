@@ -1,4 +1,4 @@
-# PCKB 0.4.0 Public Preview 隐私说明
+# PCKB 0.6.0 Public Preview 隐私说明
 
 个人代码资产库采用 Local-first 设计。代码库、Project、学习记录、普通搜索索引、语义索引和备份保存在用户选择的本机位置。AI 功能默认关闭；用户可以选择完全本机的 Ollama，也可以主动配置 DeepSeek 或 Qwen API。
 
@@ -24,13 +24,13 @@ Generation Provider 与 Embedding Provider 相互独立。AI 内容辅助和 AI 
 
 ## API Key
 
-DeepSeek 与 Qwen API Key 只保存在 macOS 钥匙串，不写入代码库、搜索索引、备份或普通配置文件。App 界面不会回显完整 Key。
+DeepSeek 与 Qwen API Key 在 macOS 只保存在 macOS 钥匙串，在 Windows 只保存在 Windows Credential Manager；不写入代码库、搜索索引、备份或普通配置文件。App 界面不会回显完整 Key。
 
-删除 App 不一定会自动删除钥匙串项目。用户可以先在 App 设置中删除 API Key，或之后通过 macOS“钥匙串访问”管理相应项目。
+删除 App 不一定会自动删除系统凭据。用户可以先在 App 设置中删除 API Key，或之后通过 macOS“钥匙串访问”或 Windows“凭据管理器”管理相应项目。
 
 ## App 可以访问哪些文件
 
-App 只围绕用户通过 macOS 系统选择器明确选择的位置工作：
+App 只围绕用户通过系统文件选择器明确选择的位置工作：
 
 - 当前代码库文件夹；
 - 用户主动选择的单个导入文件；
@@ -54,6 +54,6 @@ App 会阻止明显的凭据文件名，并对普通代码中看起来像 Secret
 
 ## 权限与发布范围
 
-0.4.0 Public Preview 不申请摄像头、麦克风、位置、联系人、日历或屏幕录制权限。文件访问由用户在系统选择器中的明确操作限定。
+0.6.0 Public Preview 不申请摄像头、麦克风、位置、联系人、日历或屏幕录制权限。文件访问由用户在系统选择器中的明确操作限定。
 
-0.4.0 Public Preview 面向 Apple Silicon Mac 和 macOS 11.0 及以上版本，采用个人本地安装方式。正式下载由本仓库的 GitHub Release 页面提供；目前不提供 Mac App Store 版本、自动更新或 Intel Mac 兼容保证。
+0.6.0 Public Preview 面向 Apple Silicon Mac（macOS 11.0 或更高版本）和 Windows 11 x64，采用个人本地安装方式。正式下载由本仓库的 GitHub Release 页面提供；目前不提供 Mac App Store 版本、自动更新、Intel Mac 或 Windows ARM64 兼容保证。

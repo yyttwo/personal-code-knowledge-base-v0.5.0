@@ -1,4 +1,4 @@
-# PCKB 0.4.0 Public Preview：macOS 安装说明
+# PCKB 0.6.0 Public Preview：macOS 安装说明
 
 ## 系统要求
 
@@ -9,7 +9,7 @@ Intel Mac 暂不保证支持。
 
 ## 安装步骤
 
-1. 从 [v0.4.0 Release](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) 下载 `PCKB-0.4.0-Public-Preview-macOS-arm64.zip` 和 `SHA256SUMS.txt`。
+1. 从 [v0.6.0 Release](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0) 下载 `PCKB-0.6.0-Public-Preview-macOS-arm64.zip` 和 `SHA256SUMS.txt`。
 2. 核对 ZIP 的 SHA-256 与 `SHA256SUMS.txt` 一致。
 3. 在 Finder 中双击 ZIP 解压。
 4. 将 `PCKB.app` 拖到“应用程序”文件夹。
@@ -20,7 +20,7 @@ Intel Mac 暂不保证支持。
 
 ## 首次打开时的 macOS 提示
 
-0.4.0 Public Preview 使用 ad hoc 签名，没有 Developer ID 签名或 Apple 公证。macOS 因此可能显示“无法验证开发者”或等价提示。
+0.6.0 Public Preview 使用 ad hoc 签名，没有 Developer ID 签名或 Apple 公证。macOS 因此可能显示“无法验证开发者”或等价提示。
 
 请先确认下载来源和 SHA-256。若 macOS 阻止首次启动，只使用系统提供的图形界面流程：
 
@@ -36,10 +36,10 @@ Intel Mac 暂不保证支持。
 macOS 终端可使用：
 
 ```sh
-shasum -a 256 PCKB-0.4.0-Public-Preview-macOS-arm64.zip
+shasum -a 256 PCKB-0.6.0-Public-Preview-macOS-arm64.zip
 ```
 
-预期结果必须与 Release 页面及 `SHA256SUMS.txt` 中公布的 0.4.0 值完全一致。
+预期结果必须与 Release 页面及 `SHA256SUMS.txt` 中公布的 0.6.0 值完全一致。
 
 若不一致，请停止安装并重新从正式 Release 页面下载。
 
@@ -47,7 +47,7 @@ shasum -a 256 PCKB-0.4.0-Public-Preview-macOS-arm64.zip
 
 1. 在旧版本中创建一次有效备份。
 2. 退出旧 App。
-3. 用 0.4.0 Public Preview 的 `PCKB.app` 替换“应用程序”中的旧版本。
+3. 用 0.6.0 Public Preview 的 `PCKB.app` 替换“应用程序”中的旧版本。
 4. 启动 PCKB，并打开原来的代码库。
 5. 检查资产与 Project；如启用语义搜索，根据设置中的提示重新构建语义索引。
 

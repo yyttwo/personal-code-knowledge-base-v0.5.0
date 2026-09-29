@@ -6,23 +6,31 @@
 
 [简体中文](README.md) | [English](README.en.md)
 
-**简体中文 + English · Local-first · macOS Apple Silicon · Public Preview**
+**Public Preview · macOS Apple Silicon · Windows 11 x64 · 简体中文 + English**
 
-## 下载 macOS 版
+## 下载
 
-**新用户推荐下载：[PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0)。**
+**新用户推荐下载：[PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)。**
 
-请从该 Release 下载 macOS arm64 ZIP。
+### macOS
 
-系统要求：Apple Silicon Mac（arm64），macOS 11.0 或更高版本。
+Apple Silicon / arm64，macOS 11.0 或更高版本：[PCKB-0.6.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip)。
 
-本 Public Preview 使用 ad hoc 签名，**没有** Apple Developer ID 签名，也**没有**经过 Apple 公证。安装前请核对公开的 SHA-256。首次启动被拦截时，请按 [INSTALL_MACOS.md](INSTALL_MACOS.md) 使用 macOS 正常图形界面操作。
+使用 ad hoc 签名，**没有** Apple Developer ID 签名或 Apple 公证。安装说明：[INSTALL_MACOS.md](INSTALL_MACOS.md)。
+
+### Windows
+
+Windows 11 / x64：[PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe)。
+
+NSIS 安装器目前**没有** Windows 代码签名，SmartScreen 可能提示未知发布者。安装说明：[INSTALL_WINDOWS.md](INSTALL_WINDOWS.md)。两个平台的下载都请使用同一 Release 内的 `SHA256SUMS.txt` 校验。
 
 ![PCKB 代码库与代码详情](screenshots/public/01-main-library.png)
 
 PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含产品核心源代码。
 
 以下均为使用虚构演示代码库拍摄的真实 PCKB 截图。本机私人路径已用不透明色块遮挡，其他产品内容未修改。
+
+当前产品截图来自 macOS 版；Windows 版使用同一套 PCKB 产品界面和核心工作流。
 
 ## 功能
 
@@ -65,7 +73,7 @@ PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含
 - **DeepSeek API：** 可选的自备 Key 生成与 AI 对话
 - **Qwen API：** 可选的自备 Key 生成、AI 对话与向量能力
 - Generation 和 Embedding Provider 相互独立
-- API 凭据通过 macOS 钥匙串保存
+- API 凭据在 macOS 使用钥匙串，在 Windows 使用 Windows Credential Manager 保存
 - 不会自动回退到其他云端 Provider
 
 云端 AI 操作会把完成用户主动请求所需的内容发送给所选 Provider。完整边界见 [PRIVACY.md](PRIVACY.md)。
@@ -74,10 +82,9 @@ App 提供内置 PCKB 夜湖背景，也支持选择本地图片，调整遮罩�
 
 ## 快速开始
 
-1. 下载最新 Public Preview ZIP。
-2. 解压 ZIP。
-3. 将 `PCKB.app` 移到“应用程序”。
-4. 打开 PCKB，创建或打开本地代码库。
+1. 按系统下载上方对应的 macOS ZIP 或 Windows 安装器，并核对 SHA-256。
+2. 按 [macOS 安装说明](INSTALL_MACOS.md) 或 [Windows 安装说明](INSTALL_WINDOWS.md) 安装。
+3. 打开 PCKB，创建或打开本地代码库。
 
 ## 隐私
 
@@ -86,6 +93,7 @@ App 提供内置 PCKB 夜湖背景，也支持选择本地图片，调整遮罩�
 ## 文档
 
 - [macOS 安装说明](INSTALL_MACOS.md)
+- [Windows 安装说明](INSTALL_WINDOWS.md)
 - [用户指南](USER_GUIDE.md)
 - [隐私说明](PRIVACY.md)
 - [安全反馈](SECURITY.md)
@@ -97,8 +105,8 @@ PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [P
 
 ## 已知限制
 
-- 仅支持 Apple Silicon（arm64）；当前不支持 Intel Mac。
-- 没有 Apple Developer ID 签名，也没有 Apple 公证。
+- macOS 仅支持 Apple Silicon（arm64），没有 Apple Developer ID 签名或 Apple 公证；当前不支持 Intel Mac。
+- Windows 仅支持 Windows 11 x64，安装器未做代码签名，SmartScreen 可能提示未知发布者；当前不承诺 Windows 10 或 ARM64。
 - 不提供云同步、自动更新、文件夹批量导入、Git/GitHub 同步、VS Code 扩展或代码执行。
 - Ollama 模型需要用户自行安装和管理；DeepSeek 与 Qwen 需要用户自己的 API Key、网络连接及服务额度。
 - 当前是持续开发中的公开预览版，不是稳定版或功能完整版本。
@@ -107,13 +115,14 @@ PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [P
 
 PCKB 采用持续迭代的预览版发布方式。旧版本保留用于回退与历史参考。
 
+- [v0.5.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.5.0) — 上一公开预览版本
 - [v0.4.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) — 首个公开预览版本
 - [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI 多 Provider 版本
 - [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — 问题反馈流程更新
 - [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — 先前公开版本
 - [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — 首个公开版本
 
-除非需要回退或复现旧版本，新安装请使用 [PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0)。
+除非需要回退或复现旧版本，新安装请使用 [PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)。
 
 ## 许可
 

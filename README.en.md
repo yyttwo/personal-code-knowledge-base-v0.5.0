@@ -6,23 +6,31 @@ Turn the code you write, learn, and collect into a searchable personal knowledge
 
 [简体中文](README.md) | [English](README.en.md)
 
-**Simplified Chinese + English · Local-first · macOS Apple Silicon · Public Preview**
+**Public Preview · macOS Apple Silicon · Windows 11 x64 · Simplified Chinese + English**
 
 PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
 
-## Download for macOS
+## Download
 
-**Recommended for new users:** [PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0).
+**Recommended for new users:** [PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0).
 
-Download the macOS arm64 ZIP from that release.
+### macOS
 
-System requirements: Apple Silicon Mac (arm64), macOS 11.0 or later.
+Apple Silicon / arm64, macOS 11.0 or later: [PCKB-0.6.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip).
 
-This Public Preview is ad hoc signed. It is **not** signed with an Apple Developer ID and is **not** notarized by Apple. Verify the published SHA-256 before installing. See [INSTALL_MACOS.md](INSTALL_MACOS.md) for the normal macOS UI steps if first launch is blocked.
+The macOS build is ad hoc signed, **not** Apple Developer ID signed or notarized. See [INSTALL_MACOS.md](INSTALL_MACOS.md).
+
+### Windows
+
+Windows 11 / x64: [PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe).
+
+The NSIS installer is **not** Authenticode signed, so SmartScreen may warn about an unknown publisher. See [INSTALL_WINDOWS.md](INSTALL_WINDOWS.md). Verify either download against `SHA256SUMS.txt` in the same release.
 
 ![PCKB Main Library and Code Detail](screenshots/public/en/01-main-library.png)
 
 The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
+
+Current product screenshots are from the macOS build; the Windows build uses the same PCKB product UI and core workflows.
 
 ## Features
 
@@ -72,7 +80,7 @@ The images below are real PCKB screenshots from a synthetic demo library. Person
 - **DeepSeek API:** optional BYOK Generation and AI Chat
 - **Qwen API:** optional BYOK Generation, AI Chat, and Embedding
 - Generation and Embedding providers are configured independently
-- API credentials are stored using macOS Keychain
+- API credentials use macOS Keychain on Mac and Windows Credential Manager on Windows
 - There is no automatic cloud-provider fallback
 
 Cloud AI operations send the content required for the user-requested operation to the selected provider. See [PRIVACY.md](PRIVACY.md).
@@ -81,10 +89,9 @@ The App includes the built-in PCKB night-lake background. You can choose a local
 
 ## Quick Start
 
-1. Download the latest Public Preview ZIP.
-2. Extract the ZIP.
-3. Move `PCKB.app` to Applications.
-4. Open PCKB and create or open a local library.
+1. Download the macOS ZIP or Windows installer above and verify its SHA-256.
+2. Follow the [macOS](INSTALL_MACOS.md) or [Windows](INSTALL_WINDOWS.md) installation guide.
+3. Open PCKB and create or open a local library.
 
 ## Privacy
 
@@ -93,6 +100,7 @@ The library is primarily stored in ordinary files at a local folder selected by 
 ## Documentation
 
 - [macOS installation](INSTALL_MACOS.md)
+- [Windows installation](INSTALL_WINDOWS.md)
 - [User guide](USER_GUIDE.md)
 - [Privacy](PRIVACY.md)
 - [Security](SECURITY.md)
@@ -104,8 +112,8 @@ PCKB is distributed as proprietary freeware under the [PCKB EULA](legal/PCKB-EUL
 
 ## Known limitations
 
-- Apple Silicon (arm64) only; Intel Mac is not currently supported.
-- No Apple Developer ID signature or Apple notarization.
+- macOS: Apple Silicon (arm64) only; no Apple Developer ID signature or notarization. Intel Mac is not supported.
+- Windows: Windows 11 x64 only; the installer is unsigned and SmartScreen may warn. Windows 10 and ARM64 are not supported targets.
 - No cloud sync, automatic updates, folder batch import, Git/GitHub sync, VS Code extension, or code execution.
 - Ollama models must be installed and managed separately. DeepSeek and Qwen require the user's own API key, network access, and service quota.
 - This is an active-development Public Preview, not a stable or feature-complete release.
@@ -114,13 +122,14 @@ PCKB is distributed as proprietary freeware under the [PCKB EULA](legal/PCKB-EUL
 
 PCKB follows an iterative preview release model. Older versions remain available for rollback and historical reference.
 
+- [v0.5.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.5.0) — Previous public preview
 - [v0.4.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) — First public preview
 - [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI Multi-Provider release
 - [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — Feedback workflow update
 - [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — Previous public release
 - [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — Initial public release
 
-For new installations, use [PCKB 0.5.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.5.0) unless you specifically need an older version.
+For new installations, use [PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0) unless you specifically need an older version.
 
 ## License
 
