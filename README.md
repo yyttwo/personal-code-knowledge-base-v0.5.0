@@ -8,6 +8,10 @@
 
 **Public Preview · macOS Apple Silicon · Windows 11 x64 · 简体中文 + English**
 
+PCKB 适合保存自己写过的代码片段、项目中值得复用的实现，以及学习过程中收藏的示例。每条代码可以连同用途、笔记、标签、Project 和学习记录一起整理；以后既能按关键词查找，也能在配置向量模型后用语义搜索找回“记得意思、忘了名字”的代码。
+
+你可以先把它当作纯本地代码知识库使用，再按需要开启 AI 讲解、改进建议或对话。普通代码库管理、全文与结构化搜索、学习、备份和废纸篓不要求配置 AI。macOS 和 Windows 使用同一套产品界面，数据由用户保存在自己选择的位置；云端 AI 是用户主动选择的增强功能。
+
 ## 下载
 
 **新用户推荐下载：[PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)。**
@@ -36,7 +40,7 @@ PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含
 
 - 完整简体中文 / English 界面，可跟随系统或在 App 内即时切换
 - 个人代码资产库、Project、标签、常用、学习状态和验证记录
-- 全文搜索、结构化筛选和可选的语义搜索
+- 全文搜索、结构化筛选、可选的语义/混合搜索和关联代码
 - 安全的单文件导入、可恢复废纸篓和本地备份/恢复
 - AI 代码辅助与 AI 对话
 - 仅保存在本机的自定义 App 背景
@@ -85,6 +89,8 @@ App 提供内置 PCKB 夜湖背景，也支持选择本地图片，调整遮罩�
 1. 按系统下载上方对应的 macOS ZIP 或 Windows 安装器，并核对 SHA-256。
 2. 按 [macOS 安装说明](INSTALL_MACOS.md) 或 [Windows 安装说明](INSTALL_WINDOWS.md) 安装。
 3. 打开 PCKB，创建或打开本地代码库。
+
+Windows 用户可直接按[下载、安装与首次使用指引](INSTALL_WINDOWS.md)逐步操作。第一次使用时，可以先保存一条代码资产，为它补上用途和标签，再试试搜索、Project 分类与学习状态；需要 AI 时再到设置中选择 Ollama、DeepSeek 或 Qwen。
 
 ## 隐私
 

@@ -8,6 +8,10 @@ Turn the code you write, learn, and collect into a searchable personal knowledge
 
 **Public Preview · macOS Apple Silicon · Windows 11 x64 · Simplified Chinese + English**
 
+PCKB helps you keep code you have written, useful implementations from projects, and examples collected while learning. Store code together with its purpose, notes, tags, Projects, and learning records. Find it again with keywords and structured filters, or configure an embedding model for semantic search when you remember the idea but not the name.
+
+You can use it as a local code knowledge base first and enable AI explanations, suggestions, or chat when needed. Core library management, keyword search, learning, backups, and Trash do not require AI. macOS and Windows share the same product interface, and libraries stay in a folder you choose; cloud AI is an optional user-selected enhancement.
+
 PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
 
 ## Download
@@ -37,7 +41,7 @@ Current product screenshots are from the macOS build; the Windows build uses the
 - Complete Simplified Chinese and English interfaces, with System language selection and instant in-app switching
 - Personal code library with Projects, tags, favorites, learning status, and validation history
 - Full-text and structured search
-- Optional semantic search and related-code discovery
+- Optional semantic/hybrid search and related-code discovery
 - Safe single-file import, recoverable Trash, and local backup/restore
 - AI code actions and AI Chat
 - Custom App backgrounds stored locally
@@ -92,6 +96,8 @@ The App includes the built-in PCKB night-lake background. You can choose a local
 1. Download the macOS ZIP or Windows installer above and verify its SHA-256.
 2. Follow the [macOS](INSTALL_MACOS.md) or [Windows](INSTALL_WINDOWS.md) installation guide.
 3. Open PCKB and create or open a local library.
+
+Windows users can follow the [download, installation, and first-use guide](INSTALL_WINDOWS.md). Start by saving one code asset with its purpose and tags, then try search, Project organization, and learning status. Configure Ollama, DeepSeek, or Qwen later if you want AI assistance.
 
 ## Privacy
 
