@@ -1,6 +1,6 @@
-PCKB PROPRIETARY BINARY LICENSE — 0.4.0 PUBLIC PREVIEW
+PCKB PROPRIETARY BINARY LICENSE — 0.6.0 PUBLIC PREVIEW
 
-Effective date: the date on which the PCKB 0.4.0 Public Preview GitHub Release
+Effective date: the date on which the PCKB 0.6.0 Public Preview GitHub Release
 is first published by the rights holder.
 
 Downloading, installing, or using PCKB is subject to this License. PCKB is

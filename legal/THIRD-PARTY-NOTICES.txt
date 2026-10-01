@@ -1844,3 +1844,624 @@ License: MIT OR Apache-2.0 OR Zlib
 Attribution: Copyright (c) zune-image developers
 Source: https://github.com/etemesi254/zune-image/tree/31d81fed7551c8ccea456d9d8e2b1fd8bebb6995/crates/zune-jpeg
 License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+WINDOWS DISTRIBUTION DELTA — 0.6.0 PUBLIC PREVIEW
+------------------------------------------------------
+This appended set supplements, and does not replace, the existing macOS
+notices. Its scope is actual final archive/object contributions, address-backed
+private PDB source lines and conservative inline-source attribution, the final
+frontend bundle, PE imports, and the unpacked NSIS payload. Publication also
+requires current-run linkage/hash and installed legal-byte verification.
+No bzip2 or zlib compression module is claimed to be distributed: the
+audited installer uses LZMA. Standard NSIS plugins may themselves have a
+zlib/libpng license; that is different from using zlib compression.
+
+NSIS 3.11
+Distribution: installer/uninstaller engine; System, StartMenu, nsDialogs,
+NSISdl plugins; Modern UI graphics.
+License: zlib/libpng. Copyright (C) 1999-2025 Contributors.
+Source: https://sourceforge.net/projects/nsis/files/NSIS%203/3.11/
+License files: see NSIS component rows in OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+Binary-only acknowledgment is appreciated, not required by this license;
+the notice is retained here for complete attribution.
+
+NSIS LZMA compression/decompression module (NSIS 3.11)
+Distribution: installer/uninstaller compression runtime.
+License: Common Public License 1.0 with the upstream LZMA linking exception.
+Authors of the exception: Igor Pavlov and Amir Szekely.
+The linking exception does not place independent PCKB code under CPL.
+The module's own license and source-availability conditions still apply.
+Unmodified upstream source reference:
+https://sourceforge.net/projects/nsis/files/NSIS%203/3.11/nsis-3.11-src.tar.bz2/download
+License and exception: see NSIS-LZMA in OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+nsis-tauri-utils 0.5.3
+Distribution: installer plugin DLL; NOT a Windows OS DLL.
+License: MIT OR Apache-2.0.
+Copyright (c) 2019 - 2022 Tauri Programme within The Commons Conservancy.
+Source: https://github.com/tauri-apps/nsis-tauri-utils/tree/13d9edd27b69310e108d6fbd49f90992f8a05390
+Exact original license texts: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+The byte-bound upstream source combines its local nsis-plugin-api,
+nsis-process, nsis-string and nsis-semvercompare implementation modules.
+These local modules carry the same project MIT/Apache-2.0 license.
+The exported SemverCompare implementation uses semver's Version::parse and
+version ordering. Its manifest requires semver 1.0 without default features.
+The precompiled plugin release publishes neither a Cargo.lock nor a PDB;
+therefore its exact resolved semver patch version is not asserted here.
+Semver is attributed separately under MIT: Copyright (c) David Tolnay.
+The original MIT text is mapped in LICENSE_INDEX.tsv; the text is identical
+at authoritative upstream versions 1.0.0 and 1.0.28.
+The plugin uses Rust core/alloc and Win32 FFI, not a bundled C++ CRT DLL.
+Upstream dependency source: https://github.com/dtolnay/semver
+This dependency mapping supplements, rather than replaces, dependency licenses.
+
+Tauri NSIS installer template — locked CLI 2.11.4
+Distribution: generated installer/uninstaller script implementation.
+License: MIT OR Apache-2.0.
+Copyright (c) 2019 - 2022 Tauri Programme within The Commons Conservancy.
+Exact source: https://github.com/tauri-apps/tauri/tree/8909f221d1515955fc843808032bdc5d62209c96/crates/tauri-bundler/src/bundle/windows/templates
+Original license texts: see LICENSE_INDEX.tsv; existing identical texts reused.
+
+Microsoft WebView2Loader — SDK 1.0.3650.58
+Distribution: statically linked loader code in the Windows application.
+Copyright (C) Microsoft Corporation. All rights reserved.
+License: original Microsoft SDK LICENSE.txt (BSD-style redistribution terms).
+Source: https://www.nuget.org/packages/Microsoft.Web.WebView2/1.0.3650.58
+The copyright, conditions and disclaimer must accompany binary distribution.
+The full WebView2 Runtime and bootstrapper are NOT embedded in this candidate.
+The installer may obtain the bootstrapper/runtime online from Microsoft.
+License text: see WebView2Loader in OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+Additional confirmed Rust component mappings
+-------------------------------------------
+These entries have positive binary source-reference evidence in the Windows
+candidate and were not mapped in the existing macOS license index. A source
+reference is supplemented by private final map/PDB contribution evidence.
+Exact copyright/attribution lines are retained in the mapped license files.
+
+Component: bit-set
+Version: 0.8.0
+Distribution: Windows application; positive retained binary source reference.
+License: Apache-2.0 OR MIT
+Source: https://github.com/contain-rs/bit-set/tree/2b8861d23b53d63d326d2694ddabde6e7b19fbd0
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: dpi
+Version: 0.1.2
+Distribution: Windows application; positive retained binary source reference.
+License: Apache-2.0 AND MIT
+Source: https://github.com/rust-windowing/winit/tree/587ade844dfb0eada3696ba1cb263c66eea80581
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: fraction
+Version: 0.17.0
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/dnsl48/fraction/tree/53d04cddb4640d1fe7756c289b3ce34be14da504
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: futures-util
+Version: 0.3.34
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-lang/futures-rs/tree/705e6b5c0f06535b1aac1cb1989a172b3d45be8c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: hashbrown
+Version: 0.17.1
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-lang/hashbrown/tree/c62a63a61b7caf2de8f9ecb7b06a66b0ab6bdf3d
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: micromap
+Version: 0.3.0
+Distribution: Windows application; positive retained binary source reference.
+License: MIT
+Source: https://github.com/yegor256/micromap/tree/72d6d2b26678b6e41d2bc94d215e619b94a4fa75
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: num-rational
+Version: 0.4.2
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-num/num-rational/tree/4d55ad22ac86ebbc4cb45d79a956e4a1f7af57d1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: phf
+Version: 0.13.1
+Distribution: Windows application; positive retained binary source reference.
+License: MIT
+Source: https://github.com/rust-phf/rust-phf/tree/1e518a6e94a2444b8df7d89078cfc69859537971
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: phf_shared
+Version: 0.13.1
+Distribution: Windows application; positive retained binary source reference.
+License: MIT
+Source: https://github.com/rust-phf/rust-phf/tree/1e518a6e94a2444b8df7d89078cfc69859537971
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: smallvec
+Version: 1.16.0
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/servo/rust-smallvec/tree/aa22a8ff83108228b6d941b83fc91399267d72c9
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: softbuffer
+Version: 0.4.8
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-windowing/softbuffer/tree/d871852faa1137d4615b99b9ad31c3ba80f345b5
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: tokio-rustls
+Version: 0.26.5
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/rustls/tokio-rustls/tree/f8832d28ce5688f101368e34fc6b49899a8d4293
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: unicode-general-category
+Version: 1.1.0
+Distribution: Windows application; positive retained binary source reference.
+License: Apache-2.0
+Source: https://github.com/yeslogic/unicode-general-category/tree/cb2d8a62f035c33d6971b99322aae65f3cea7c88
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: unicode-segmentation
+Version: 1.13.3
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/unicode-rs/unicode-segmentation/tree/66a032fd8d667bc47ac5b640b151dff3f5356d07
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: webview2-com
+Version: 0.38.2
+Distribution: Windows application; positive retained binary source reference.
+License: MIT
+Source: https://github.com/wravery/webview2-rs/tree/b74dc5e2b394044bea5191052868ce7a106c202c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows-core
+Version: 0.61.2
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/49e5d37ef31838d027c41ee28d696e046d04c27f
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows-strings
+Version: 0.4.2
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/49e5d37ef31838d027c41ee28d696e046d04c27f
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows
+Version: 0.61.3
+Distribution: Windows application; positive retained binary source reference.
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/4b8893b307719ec23cce698269ca572ef301dc5c
+
+
+Component: alloc-no-stdlib
+Version: 2.0.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: BSD-3-Clause
+Source: https://github.com/dropbox/rust-alloc-no-stdlib/tree/6032b6a9b20e03737135c55a0270ccffcc1438ef
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: alloc-stdlib
+Version: 0.2.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: BSD-3-Clause
+Source: https://github.com/dropbox/rust-alloc-no-stdlib/tree/ae42d22078b98549e987d2f03d12df7b984fde47
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: allocator-api2
+Version: 0.2.21
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/zakarumych/allocator-api2/tree/63cd7fcc2f8854b5821c7054d026e8a4647acde1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: block-buffer
+Version: 0.10.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/RustCrypto/utils/tree/6d35952d3d3b124bc1049ad6fb406b42b1ce4bfe
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: borrow-or-share
+Version: 0.2.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT-0
+Source: https://github.com/yescallop/borrow-or-share/tree/fa67a43ce36367757ace1824434b9edaa53f5a09
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: bytemuck
+Version: 1.25.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Zlib OR Apache-2.0 OR MIT
+Source: https://github.com/Lokathor/bytemuck/tree/f363643e951a7ac9e4b9921de982f2b0918902e3
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: byteorder
+Version: 1.5.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unlicense OR MIT
+Source: https://github.com/BurntSushi/byteorder/tree/ec068eefa042d494475db125c4b034bd8e9e34dd
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: cpufeatures
+Version: 0.2.17
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/RustCrypto/utils/tree/9d92d5e95ab4c07c5d8bfd024bf2a17e96d20feb
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: ctor
+Version: 0.8.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 OR MIT
+Source: https://github.com/mmastrac/rust-ctor/tree/f157640f88f958157371b39e83d85ec1a9d49cf2
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: deranged
+Version: 0.5.8
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/jhpratt/deranged/tree/7d0c671e8c806b96d582af197df3c620e09cb33b
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: digest
+Version: 0.10.7
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/RustCrypto/traits/tree/344389411fd9718a0742435152e933a9e71461ee
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: dunce
+Version: 1.0.5
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: CC0-1.0 OR MIT-0 OR Apache-2.0
+Source: https://gitlab.com/kornelski/dunce/tree/1ee29a83526c9f4c3618e1335f0454c878a54dcf
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: equivalent
+Version: 1.0.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 OR MIT
+Source: https://github.com/indexmap-rs/equivalent/tree/44cdd44f8b8ebb5f9ae096c7550a5e74ffb7d6ae
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: fnv
+Version: 1.0.7
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 / MIT
+Source: https://github.com/servo/rust-fnv/tree/4b4784ebfd3332dc61f0640764d6f1140e03a9ab
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: futures-io
+Version: 0.3.34
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-lang/futures-rs/tree/705e6b5c0f06535b1aac1cb1989a172b3d45be8c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: futures-sink
+Version: 0.3.34
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-lang/futures-rs/tree/705e6b5c0f06535b1aac1cb1989a172b3d45be8c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: http-body-util
+Version: 0.1.5
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/hyperium/http-body/tree/07838bd97b714b95bd783cd695ebf211b67545c4
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: http-body
+Version: 1.1.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/hyperium/http-body/tree/2fb78de9c875c364b7eb1a1a117acc3b83ffb13a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: icu_normalizer_data
+Version: 2.3.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unicode-3.0
+Source: https://github.com/unicode-org/icu4x/tree/a14f2dad852be26bad277ae704abf27a15cbfed1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: icu_properties
+Version: 2.3.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unicode-3.0
+Source: https://github.com/unicode-org/icu4x/tree/a14f2dad852be26bad277ae704abf27a15cbfed1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: idna_adapter
+Version: 1.2.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 OR MIT
+Source: https://github.com/hsivonen/idna_adapter/tree/1d9782f32c9e29218542b4a9411a82b35ec5c8cb
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: indexmap
+Version: 2.14.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 OR MIT
+Source: https://github.com/indexmap-rs/indexmap/tree/41a870887c4c77adf665886e63df08f406bfe37a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: keyboard-types
+Version: 0.7.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/pyfisch/keyboard-types/tree/61a081f1e78a881a369abc22c3a0e37049bd655e
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: litemap
+Version: 0.8.3
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unicode-3.0
+Source: https://github.com/unicode-org/icu4x/tree/a14f2dad852be26bad277ae704abf27a15cbfed1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: lock_api
+Version: 0.4.14
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/Amanieu/parking_lot/tree/d7828fff7b5d6327ae608e82db45f888b344449a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: num-cmp
+Version: 0.1.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT/Apache-2.0
+Source: https://crates.io/api/v1/crates/num-cmp/0.1.0/download
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: num-conv
+Version: 0.2.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/jhpratt/num-conv/tree/b022fe87ac3ad5b0d7606ea7465549eaa92efe97
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: num-traits
+Version: 0.2.19
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/rust-num/num-traits/tree/7ec3d41d39b28190ec1d42db38021107b3951f3a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: pin-project-lite
+Version: 0.2.17
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 OR MIT
+Source: https://github.com/taiki-e/pin-project-lite/tree/3bdf763446aa78f90e3bdac1ef583e014832ab4c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: serde_spanned
+Version: 1.1.1
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/toml-rs/toml/tree/9db8aad6eafbc62f6b9d1950117649cc41eaf695
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: siphasher
+Version: 1.0.3
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT/Apache-2.0
+Source: https://github.com/jedisct1/rust-siphash/tree/451f67d73a772cba325728109bbfa247750ed076
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: subtle
+Version: 2.6.1
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: BSD-3-Clause
+Source: https://github.com/dalek-cryptography/subtle/tree/5457b5448b021d1da101ababbb854e6657233943
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: sync_wrapper
+Version: 1.0.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0
+Source: https://github.com/Actyx/sync_wrapper/tree/55413956c36aeab47feb8c04d1b7a044d6df336a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: thiserror
+Version: 1.0.69
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/dtolnay/thiserror/tree/41938bd3a03a70d34ed8e53d99c89c770c7c9c41
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: thiserror
+Version: 2.0.20
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/dtolnay/thiserror/tree/b1d5db5e039275d95bf7536a2b2192aeb4dc28bf
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: time-core
+Version: 0.1.9
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/time-rs/time/tree/5d8737c39b9170c36c99cfc1f9f49cf0c059c63a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: tinystr
+Version: 0.8.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unicode-3.0
+Source: https://github.com/unicode-org/icu4x/tree/a14f2dad852be26bad277ae704abf27a15cbfed1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: tower-layer
+Version: 0.3.3
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/tower-rs/tower/tree/fec9e559e276ba9609f939d3b0d2e4fa0504de6f
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: tower-service
+Version: 0.3.3
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/tower-rs/tower/tree/646804d77eebf072dac180cb5e1256b9ee7e0229
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: try-lock
+Version: 0.2.5
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/seanmonstar/try-lock/tree/fd160ecd9105e8afcc43dbea450a0ef6e5128cce
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: unic-char-property
+Version: 0.9.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT/Apache-2.0
+Source: https://github.com/open-i18n/rust-unic//tree/5878605364af97a3358368a6eaef02104af2e016
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: uuid-simd
+Version: 0.8.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/Nugine/simd/tree/d74c030d9dc4f3cae02146d1f497ff62726ef09a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: vsimd
+Version: 0.8.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/Nugine/simd/tree/d74c030d9dc4f3cae02146d1f497ff62726ef09a
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: webview2-com-sys
+Version: 0.38.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT
+Source: https://github.com/wravery/webview2-rs/tree/b74dc5e2b394044bea5191052868ce7a106c202c
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: winapi-util
+Version: 0.1.11
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unlicense OR MIT
+Source: https://github.com/BurntSushi/winapi-util/tree/803874c57dc1f10ecd42f7c86d9de72f53818432
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows-result
+Version: 0.3.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/49e5d37ef31838d027c41ee28d696e046d04c27f
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows-sys
+Version: 0.61.2
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/32c3144490c016fe496a0aed769bce60987a2e9d
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows-version
+Version: 0.1.7
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/32c3144490c016fe496a0aed769bce60987a2e9d
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: windows_x86_64_msvc
+Version: 0.53.1
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: MIT OR Apache-2.0
+Source: https://github.com/microsoft/windows-rs/tree/d468916ac27a36fb8a12bafc1bf5c0ec2fe92238
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: writeable
+Version: 0.6.4
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unicode-3.0
+Source: https://github.com/unicode-org/icu4x/tree/a14f2dad852be26bad277ae704abf27a15cbfed1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: zeroize
+Version: 1.9.0
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Apache-2.0 OR MIT
+Source: https://github.com/RustCrypto/utils/tree/0b715735a660a8566ccd240bf42489fe2ed98efb
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: zerovec
+Version: 0.11.8
+Distribution: Windows retained linkage/source/inline provenance (conservative attribution).
+License: Unicode-3.0
+Source: https://github.com/unicode-org/icu4x/tree/c56bbb5a7b47409759113903764c456f13b418e5
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: Rust compiler-builtins
+Version: 0.1.160 at compiler commit 48a229ceaefd4985c50990b14116b6d856af0985
+Distribution: STATIC_LINKED; actual compiler_builtins archive contributions.
+License: MIT AND Apache-2.0 WITH LLVM-exception AND (MIT OR Apache-2.0)
+Copyright: Rust Project Developers and compiler-rt contributors; original composite attribution in mapped LICENSE.txt.
+Source: https://github.com/rust-lang/rust/tree/48a229ceaefd4985c50990b14116b6d856af0985/library/compiler-builtins
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+Component: Microsoft Visual C++ static release runtime
+Version: 14.51.36231
+Distribution: STATIC_LINKED; libcmt/libvcruntime release startup, support and exception-handling objects. No separate VC Redistributable DLL/package is bundled; OS UCRT DLLs are imported, not redistributed.
+Copyright (C) Microsoft Corporation. All rights reserved.
+License: Microsoft proprietary runtime terms; Visual Studio distributable-code terms apply to the publisher's object-code distribution. This is not an open-source component and not PCKB-owned code.
+Source/terms: https://visualstudio.microsoft.com/license-terms/vs2026-ga-visualcpp-v14-redist-runtime/
+Publisher terms: https://visualstudio.microsoft.com/license-terms/vs2026-ga-pro-enterprise/
+Redistribution list: https://learn.microsoft.com/en-us/visualstudio/releases/2026/redistribution
+Original Microsoft terms are supplied in OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv. No Microsoft endorsement is implied; no MSVC SDK, compiler, or .lib development file is distributed.
+
+Component: Rust core/alloc in nsis-tauri-utils
+Version: upstream plugin toolchain version unpublished; no patch version is guessed.
+Distribution: STATIC_LINKED inside the exact upstream no_std plugin DLL.
+License: MIT OR Apache-2.0
+Copyright: The Rust Project Developers.
+Source: https://github.com/rust-lang/rust/tree/master/library
+The plugin's no_std/core/alloc and custom Win32 allocator source are verified at its pinned upstream commit. Original Rust project license texts are mapped separately from plugin-author and semver licenses.
+
+Component: vite
+Version: 8.2.2
+Distribution: BUNDLED_IN_FRONTEND; Generated modulepreload polyfill only, not build-tool-only dependencies.
+License: MIT
+Source: https://www.npmjs.com/package/vite/v/8.2.2
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+Component: rolldown
+Version: 1.2.7
+Distribution: BUNDLED_IN_FRONTEND; Generated runtime glue only, not compiler/archiver binaries.
+License: MIT
+Source: https://www.npmjs.com/package/rolldown/v/1.2.7
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+Component: @oxc-project/runtime
+Version: 0.148.0
+Distribution: BUNDLED_IN_FRONTEND; Four rendered virtual helper modules positively identified by final bundler output.
+License: MIT
+Source: https://www.npmjs.com/package/@oxc-project/runtime/v/0.148.0
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+Component: Babel runtime helper origin
+Version: OXC 0.148.0 package copies Babel runtime helpers; original Babel patch version unpublished, not guessed.
+Distribution: BUNDLED_IN_FRONTEND inside the retained OXC defineProperty, toPrimitive, toPropertyKey and typeof helpers.
+License: MIT
+Copyright (c) 2014-present Sebastian McKenzie and other contributors.
+Attribution: The exact @oxc-project/runtime package README states that the helpers are copied from @babel/runtime and credits the Babel team. This attribution and Babel's original MIT text are retained independently of OXC's license.
+Source/license: https://github.com/babel/babel/blob/v7.28.4/LICENSE
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
