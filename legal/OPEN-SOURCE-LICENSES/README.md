@@ -9,12 +9,13 @@ Baseline: the verified PCKB 0.3.0 runtime bundle, plus the audited 0.4.0 image-d
 The component index includes the upstream objc2-family license text and its Apple SDK derivation notice. The notice records upstream uncertainty and does not state that redistribution is either legally confirmed or illegal.
 
 Windows preparation adds only confirmed candidate component mappings and exact
-upstream license texts. Identical content is reused by SHA-256; license text
-line endings are normalized to LF, with a final newline. The original macOS
+upstream license texts. Identical content is reused by SHA-256; original license
+bytes are preserved and checked against the index. The original macOS
 notice set is retained. The candidate uses NSIS LZMA, not the bzip2 or zlib
 compression modules; only the relevant NSIS copyright/license/exception sections
 are retained for that delta.
 
-The Windows static-link contribution map and installed legal-file delivery are
-not yet fully verified. This folder must not be treated as a complete Windows
-release-compliance declaration. No objc2 risk-resolution claim is made.
+Windows release acceptance requires a fresh, installer-bound static-link map,
+private PDB provenance, payload attribution, and byte-identical installed legal
+files to pass the current-run closure gate. This is a technical distribution
+audit, not a formal legal opinion. No objc2 risk-resolution claim is made.
