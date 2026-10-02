@@ -1,32 +1,45 @@
 # PCKB
 
-## 个人代码知识库
+Personal Code Knowledge Base · 个人代码知识库
 
 把你写过、学过和收藏过的代码，变成一个可以搜索、理解和直接提问的个人代码知识库。
+
+管理、搜索、理解自己的代码资产。支持本地 AI、多模型和语义检索，让自己的代码真正成为可用的知识库。
 
 [简体中文](README.md) | [English](README.en.md)
 
 **Public Preview · macOS Apple Silicon · Windows 11 x64 · 简体中文 + English**
 
+## Download / 下载
+
+**[PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)**
+
+| 平台 / Platform | 系统要求 / Requirements | 下载 / Download |
+| --- | --- | --- |
+| macOS | Apple Silicon arm64 · macOS 11.0+ | [macOS ZIP](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip) |
+| Windows | Windows 11 x64 | [Windows 安装程序](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe) |
+
+安装前请下载同一 Release 的 [SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt)，确认校验值匹配。GitHub 自动提供的 Source code archive 仅是这个下载与文档仓库的归档，不是 PCKB 应用源码。
+
 PCKB 适合保存自己写过的代码片段、项目中值得复用的实现，以及学习过程中收藏的示例。每条代码可以连同用途、笔记、标签、Project 和学习记录一起整理；以后既能按关键词查找，也能在配置向量模型后用语义搜索找回“记得意思、忘了名字”的代码。
 
 你可以先把它当作纯本地代码知识库使用，再按需要开启 AI 讲解、改进建议或对话。普通代码库管理、全文与结构化搜索、学习、备份和废纸篓不要求配置 AI。macOS 和 Windows 使用同一套产品界面，数据由用户保存在自己选择的位置；云端 AI 是用户主动选择的增强功能。
 
-## 下载
-
-**新用户推荐下载：[PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)。**
-
-### macOS
+### macOS — Apple Silicon
 
 Apple Silicon / arm64，macOS 11.0 或更高版本：[PCKB-0.6.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip)。
 
 使用 ad hoc 签名，**没有** Apple Developer ID 签名或 Apple 公证。安装说明：[INSTALL_MACOS.md](INSTALL_MACOS.md)。
 
-### Windows
+下载 ZIP → 在终端运行 `shasum -a 256 PCKB-0.6.0-Public-Preview-macOS-arm64.zip` 并与校验文件比较 → 解压得到 `PCKB.app` → 拖入 Applications / 应用程序 → 打开。若首次启动被系统拦截，仅在官方来源与 SHA256 都确认后，使用 Finder 中 Control-click / 右键 → Open / 打开 → 再确认打开（若系统提供该选项），或系统设置 → 隐私与安全性 → 仍要打开。不要关闭系统安全保护。更新时先退出旧 App，再替换 App，保留外部 Library；完整步骤见安装说明。
+
+### Windows 11 x64
 
 Windows 11 / x64：[PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe)。
 
 NSIS 安装器目前**没有** Windows 代码签名，SmartScreen 可能提示未知发布者。安装说明：[INSTALL_WINDOWS.md](INSTALL_WINDOWS.md)。两个平台的下载都请使用同一 Release 内的 `SHA256SUMS.txt` 校验。
+
+下载 Setup.exe → 在 PowerShell 运行 `Get-FileHash ".\PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe" -Algorithm SHA256` → 确认结果为 `27fce8290fd42bfd9a6ec7bdf37b44179012e9a505469522ccfc1c6ca76b7a55` → 安装。仅在官方来源与哈希匹配后，才使用 SmartScreen 的“更多信息 → 仍要运行”；不要关闭 Defender 或 SmartScreen。若提示 Already Installed，选择 Uninstall before installing，且不要勾选 Delete the application data；保持安装器默认目录。完成页可保留 Run PCKB，桌面快捷方式按需选择，再点击 Finish。缺少 WebView2 Runtime 时安装器可能需要联网下载。外部 Library 与安装目录分离，请保留正常备份；完整步骤见安装说明。
 
 ![PCKB 代码库与代码详情](screenshots/public/01-main-library.png)
 
@@ -34,7 +47,7 @@ PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含
 
 以下均为使用虚构演示代码库拍摄的真实 PCKB 截图。本机私人路径已用不透明色块遮挡，其他产品内容未修改。
 
-当前产品截图来自 macOS 版；Windows 版使用同一套 PCKB 产品界面和核心工作流。
+产品截图来自 macOS 版本。Windows 版使用相同的 PCKB 核心界面与工作流程，安装程序及系统级提示等平台原生界面可能有所不同。
 
 ## 功能
 
@@ -95,6 +108,14 @@ Windows 用户可直接按[下载、安装与首次使用指引](INSTALL_WINDOWS
 ## 隐私
 
 代码库主要以普通文件保存在用户选择的本机文件夹中。Ollama 支持本机 AI 工作流；DeepSeek 与 Qwen 是可选的外部 BYOK Provider。PCKB 不会自动切换到其他云端 Provider。
+
+PCKB 应用源码当前保持私有。本公开仓库仅用于官方下载安装包、文档、截图与版本发布信息。
+
+## Updates / 更新
+
+PCKB Public Preview 当前不包含自动更新。新版本请从[官方 GitHub Releases 页面](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases)重新下载安装。
+
+PCKB 0.6.0 为 Public Preview（公开预览版）。核心工作流程已经在支持的平台上完成测试，但产品仍在持续开发中。
 
 ## 文档
 

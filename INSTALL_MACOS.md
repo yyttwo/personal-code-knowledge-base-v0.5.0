@@ -5,7 +5,7 @@
 - Apple Silicon Mac（arm64）
 - macOS 11.0 或更高版本
 
-Intel Mac 暂不保证支持。
+当前安装包不支持 Intel Mac。
 
 ## 安装步骤
 
@@ -24,8 +24,10 @@ Intel Mac 暂不保证支持。
 
 请先确认下载来源和 SHA-256。若 macOS 阻止首次启动，只使用系统提供的图形界面流程：
 
-1. 在 Finder 中按住 Control 点击 App，然后选择“打开”；或
-2. 打开“系统设置”→“隐私与安全性”，查看系统提供的“仍要打开”选项。
+1. Finder → Applications / 应用程序 → PCKB → 按住 Control 点击 / 右键 → Open / 打开 → 再确认打开（如果此系统版本提供该选项）；或
+2. 尝试打开后，打开“系统设置”→“隐私与安全性”→“仍要打开”，再确认“打开”。
+
+仅在文件来自官方 PCKB Release、SHA256 完全匹配且你信任此来源时操作。校验匹配证明文件与发布物一致，不代替 Apple 的安全审核；若提示已知恶意软件或文件损坏，请停止并反馈。
 
 本文不建议关闭 Gatekeeper、停用系统安全保护或运行命令行绕过操作。
 
@@ -41,6 +43,12 @@ shasum -a 256 PCKB-0.6.0-Public-Preview-macOS-arm64.zip
 
 预期结果必须与 Release 页面及 `SHA256SUMS.txt` 中公布的 0.6.0 值完全一致。
 
+本次正式 ZIP SHA256：
+
+```text
+6827b45e9a2bdf87f9af2a56eec02b4fa2254277d5d357c654b73f5006e1a455
+```
+
 若不一致，请停止安装并重新从正式 Release 页面下载。
 
 ## 从旧版本升级
@@ -52,3 +60,5 @@ shasum -a 256 PCKB-0.6.0-Public-Preview-macOS-arm64.zip
 5. 检查资产与 Project；如启用语义搜索，根据设置中的提示重新构建语义索引。
 
 代码库位于用户选择的独立文件夹中，升级、重装或删除 App 不应自动删除代码库。API Key 保存在 macOS 钥匙串中，不属于代码库备份。
+
+PCKB Public Preview 当前不包含自动更新。新版本请从官方 GitHub Releases 页面重新下载安装；不要删除外部 Library 来完成更新，并对重要代码资产保持正常备份。

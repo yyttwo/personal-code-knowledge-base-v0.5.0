@@ -8,33 +8,44 @@ Turn the code you write, learn, and collect into a searchable personal knowledge
 
 **Public Preview · macOS Apple Silicon · Windows 11 x64 · Simplified Chinese + English**
 
+## Download
+
+**[PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)**
+
+| Platform | Requirements | Download |
+| --- | --- | --- |
+| macOS | Apple Silicon arm64 · macOS 11.0+ | [macOS ZIP](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip) |
+| Windows | Windows 11 x64 | [Windows installer](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe) |
+
+Verify either file against [SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt) from this release before installing. GitHub's automatic Source code archives contain this downloads/documentation repository, not PCKB application source.
+
 PCKB helps you keep code you have written, useful implementations from projects, and examples collected while learning. Store code together with its purpose, notes, tags, Projects, and learning records. Find it again with keywords and structured filters, or configure an embedding model for semantic search when you remember the idea but not the name.
 
 You can use it as a local code knowledge base first and enable AI explanations, suggestions, or chat when needed. Core library management, keyword search, learning, backups, and Trash do not require AI. macOS and Windows share the same product interface, and libraries stay in a folder you choose; cloud AI is an optional user-selected enhancement.
 
 PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
 
-## Download
-
-**Recommended for new users:** [PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0).
-
-### macOS
+### macOS — Apple Silicon
 
 Apple Silicon / arm64, macOS 11.0 or later: [PCKB-0.6.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip).
 
 The macOS build is ad hoc signed, **not** Apple Developer ID signed or notarized. See [INSTALL_MACOS.md](INSTALL_MACOS.md).
 
-### Windows
+Download the ZIP, run `shasum -a 256 PCKB-0.6.0-Public-Preview-macOS-arm64.zip`, compare the hash, extract `PCKB.app`, and drag it into Applications. Only after verifying the official source and hash, use Finder → Applications → Control-click PCKB → Open → confirm Open if offered; otherwise use System Settings → Privacy & Security → Open Anyway. Do not disable system protection. Quit the old App before replacing it for an update; keep your external Library. See the installation guide for detailed steps and Apple's safety guidance.
+
+### Windows 11 x64
 
 Windows 11 / x64: [PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe).
 
 The NSIS installer is **not** Authenticode signed, so SmartScreen may warn about an unknown publisher. See [INSTALL_WINDOWS.md](INSTALL_WINDOWS.md). Verify either download against `SHA256SUMS.txt` in the same release.
 
-![PCKB Main Library and Code Detail](screenshots/public/en/01-main-library.png)
+Download Setup.exe and run `Get-FileHash ".\PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe" -Algorithm SHA256`. Expected hash: `27fce8290fd42bfd9a6ec7bdf37b44179012e9a505469522ccfc1c6ca76b7a55`. Only after confirming the official source and hash, use More info → Run anyway if SmartScreen warns. Never disable Defender or SmartScreen. If Already Installed appears, choose Uninstall before installing and leave Delete the application data unchecked. Keep the installer default location. On the completion page, Run PCKB may stay selected; Create desktop shortcut is optional. Click Finish. If Microsoft Edge WebView2 Runtime is not already available, the installer may need network access to obtain the required runtime. Keep normal backups of your external Library.
+
+![PCKB Main Library and Code Detail](screenshots/public/01-main-library.png)
 
 The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
 
-Current product screenshots are from the macOS build; the Windows build uses the same PCKB product UI and core workflows.
+Product screenshots are from the macOS version. The Windows version uses the same core PCKB interface and workflows; platform-native installation and system dialogs may differ.
 
 ## Features
 
@@ -52,31 +63,25 @@ Current product screenshots are from the macOS build; the Windows build uses the
 
 | Create a code asset | Manage a project |
 | --- | --- |
-| ![New asset editor](screenshots/public/en/02-new-asset.png) | ![Project management](screenshots/public/en/10-project-management.png) |
+| ![New asset editor](screenshots/public/02-new-asset.png) | ![Project management](screenshots/public/03-project-management.png) |
 
 ### Learn and review
 
 | Learning overview | Asset learning cards |
 | --- | --- |
-| ![Learning Center overview](screenshots/public/en/03-learning-overview.png) | ![Learning Center asset cards](screenshots/public/en/08-learning-assets.png) |
+| ![Learning Center overview](screenshots/public/04-learning-overview.png) | ![Learning Center asset cards](screenshots/public/05-learning-assets.png) |
 
-### Search, configure, and safeguard
+### Configure and safeguard
 
-| General and AI settings | Semantic search settings |
+| AI and semantic search settings | Backup and restore |
 | --- | --- |
-| ![General and AI settings](screenshots/public/en/05-general-settings.png) | ![Semantic search settings](screenshots/public/en/06-semantic-search-settings.png) |
-
-| Trash | Feedback and privacy guidance |
-| --- | --- |
-| ![Recoverable Trash](screenshots/public/en/04-trash.png) | ![Feedback and privacy guidance](screenshots/public/en/11-feedback.png) |
-
-### Optional AI Chat
-
-![AI Chat](screenshots/public/en/09-ai-chat.png)
+| ![AI settings](screenshots/public/06-ai-settings.png) | ![Backup and restore](screenshots/public/07-backup-restore.png) |
 
 ### Make it yours
 
-![Local App background settings](screenshots/public/en/07-app-background.png)
+![Local App background settings](screenshots/public/08-app-background.png)
+
+AI Chat remains available but is not shown in this approved screenshot set.
 
 ## AI options
 
@@ -89,7 +94,7 @@ Current product screenshots are from the macOS build; the Windows build uses the
 
 Cloud AI operations send the content required for the user-requested operation to the selected provider. See [PRIVACY.md](PRIVACY.md).
 
-The App includes the built-in PCKB night-lake background. You can choose a local image and adjust its overlay, blur, and Cover/Contain display mode; the background image remains on the Mac.
+The App includes the built-in PCKB night-lake background. You can choose a local image and adjust its overlay, blur, and Cover/Contain display mode; the background image remains on your computer.
 
 ## Quick Start
 
@@ -111,6 +116,14 @@ The library is primarily stored in ordinary files at a local folder selected by 
 - [Privacy](PRIVACY.md)
 - [Security](SECURITY.md)
 - [Source-code status](SOURCE_CODE_NOTICE.md)
+
+## Updates
+
+PCKB Public Preview currently does not include automatic updates. New versions should be downloaded from the [official GitHub Releases page](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases).
+
+PCKB 0.6.0 is a Public Preview. Core workflows have been tested on supported platforms, but the product is still under active development.
+
+PCKB is local-first. Your Library stays under your control. Optional AI features may use the provider you configure. PCKB application source code is currently private. This public repository is used for official downloads, documentation, screenshots, and release information.
 
 ## Legal
 

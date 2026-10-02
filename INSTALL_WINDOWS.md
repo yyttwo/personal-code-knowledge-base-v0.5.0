@@ -23,11 +23,23 @@
 
 请始终使用同一 Release 的安装包和校验文件，不要混用旧 RC 或历史版本的 SHA。
 
+本次最终安装程序预期 SHA256：
+
+```text
+27fce8290fd42bfd9a6ec7bdf37b44179012e9a505469522ccfc1c6ca76b7a55
+```
+
+[下载本 Release 的 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt)。GitHub 自动显示的 Source code archive 只是公开下载与文档仓库归档，不是 PCKB 应用源码。
+
 ## 安装
 
 双击 NSIS 安装器，按提示完成安装。当前 Public Preview **未进行 Windows Authenticode 代码签名**。Windows Defender SmartScreen 可能显示“未知发布者”“Windows 已保护你的电脑”等提示。只有在确认下载来自上述官方 Release、且 SHA-256 匹配后，才考虑使用系统正常界面中的“更多信息”→“仍要运行”（More info → Run anyway）。不要关闭 Defender、SmartScreen 或 Windows Security，也不要修改注册表绕过保护。
 
 安装器使用 Microsoft Edge WebView2 显示界面。如果系统缺少所需 Runtime，安装过程可能联网获取组件；请等待安装完成。完成后从开始菜单打开 **PCKB**。
+
+如果检测到旧版本并显示 **Already Installed**，推荐选择 **Uninstall before installing**。进入旧版卸载器时，**不要勾选 Delete the application data（删除应用数据）**；正常卸载旧程序后继续安装新版。
+
+保持安装器提供的默认安装目录，不要自行改到 Program Files。安装完成页的 **Run PCKB** 可以保持勾选；**Create desktop shortcut** 由你决定，然后点击 **Finish** 启动。
 
 ## 第一次使用
 
@@ -43,6 +55,8 @@ DeepSeek / Qwen API Key 保存在 Windows Credential Manager，不写入代码�
 PCKB 不提供自动更新。升级前建议在旧版本中创建有效备份，退出 PCKB，再从官方 GitHub Release 下载新安装器并核对 SHA-256。安装新版后打开原来的代码库，检查资产、Project 和学习记录；如设置提示语义索引需要重建，再按提示操作。
 
 卸载可通过 Windows“设置”→“应用”→“安装的应用”中 PCKB 的正常卸载入口进行。卸载 PCKB 不会自动删除外部代码库。保留代码库和备份即可继续管理自己的数据；系统凭据也不一定随卸载删除，如需移除 API Key，可先在 PCKB 设置中删除，或使用 Windows“凭据管理器”管理相应项目。
+
+对重要代码资产保持自己的正常备份。PCKB 的备份功能不替代你的日常备份策略。
 
 ## English summary
 
