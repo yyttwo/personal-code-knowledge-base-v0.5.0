@@ -1,6 +1,6 @@
-PCKB PROPRIETARY BINARY LICENSE — 0.6.0 PUBLIC PREVIEW
+PCKB PROPRIETARY BINARY LICENSE — 0.7.0 PUBLIC PREVIEW
 
-Effective date: the date on which the PCKB 0.6.0 Public Preview GitHub Release
+Effective date: the date on which the PCKB 0.7.0 Public Preview GitHub Release
 is first published by the rights holder.
 
 Downloading, installing, or using PCKB is subject to this License. PCKB is
@@ -15,7 +15,7 @@ Copyright © 2026 yuanjiawei. All rights reserved.
 
 An “Official Binary” is an unmodified PCKB binary package distributed by the
 rights holder through the official public binary release repository:
-https://github.com/yyttwo/personal-code-knowledge-base-releases
+https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0
 
 Source code is not included. No ownership, source-code access right, or other
 right not expressly stated in this License is transferred by downloading,

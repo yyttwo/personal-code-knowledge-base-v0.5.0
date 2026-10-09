@@ -1,2 +1,1 @@
-6827b45e9a2bdf87f9af2a56eec02b4fa2254277d5d357c654b73f5006e1a455  PCKB-0.6.0-Public-Preview-macOS-arm64.zip
-27fce8290fd42bfd9a6ec7bdf37b44179012e9a505469522ccfc1c6ca76b7a55  PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe
+7ca6665706f7686813eb577f7668e38829768350eab1c9456d433fee200c145d  PCKB-0.7.0-Public-Preview-macOS-arm64.zip

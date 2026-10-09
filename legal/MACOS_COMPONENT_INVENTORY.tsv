@@ -1,0 +1,155 @@
+package	version	license	ecosystem	evidence	distributed_or_linked	source	license_evidence
+ahash	0.8.12	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/tkaitchuck/ahash	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: ahash@0.8.12
+aho-corasick	1.1.5	Unlicense OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/BurntSushi/aho-corasick	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: aho-corasick@1.1.5
+anyhow	1.0.104	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/dtolnay/anyhow	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: anyhow@1.0.104
+atomic-waker	1.1.2	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/smol-rs/atomic-waker	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: atomic-waker@1.1.2
+aws-lc-rs	1.18.1	ISC AND (Apache-2.0 OR ISC)	RUST	FINAL_MACOS_LINK	YES	https://github.com/aws/aws-lc-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: aws-lc-rs@1.18.1
+aws-lc-sys	0.45.0	ISC AND (Apache-2.0 OR ISC) AND Apache-2.0 AND MIT AND BSD-3-Clause AND (Apache-2.0 OR ISC OR MIT) AND (Apache-2.0 OR ISC OR MIT-0)	RUST	FINAL_MACOS_LINK	YES	https://github.com/aws/aws-lc-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: aws-lc-sys@0.45.0
+base64	0.22.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/marshallpierce/rust-base64	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: base64@0.22.1
+bit-vec	0.8.0	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/contain-rs/bit-vec	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: bit-vec@0.8.0
+bitflags	2.13.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/bitflags/bitflags	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: bitflags@2.13.1
+block2	0.6.2	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: block2@0.6.2
+brotli-decompressor	5.0.3	BSD-3-Clause/MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/dropbox/rust-brotli-decompressor	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: brotli-decompressor@5.0.3
+bytecount	0.6.9	Apache-2.0/MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/llogiq/bytecount	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: bytecount@0.6.9
+bytemuck	1.25.2	Zlib OR Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/Lokathor/bytemuck	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: bytemuck@1.25.2
+bytes	1.12.1	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tokio-rs/bytes	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: bytes@1.12.1
+cfb	0.7.3	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/mdsteele/rust-cfb	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: cfb@0.7.3
+cookie	0.18.2	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/SergioBenitez/cookie-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: cookie@0.18.2
+core-foundation	0.10.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/servo/core-foundation-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: core-foundation@0.10.1
+crc32fast	1.5.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/srijs/rust-crc32fast	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: crc32fast@1.5.1
+crossbeam-channel	0.5.17	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/crossbeam-rs/crossbeam	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: crossbeam-channel@0.5.17
+crossbeam-utils	0.8.23	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/crossbeam-rs/crossbeam	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: crossbeam-utils@0.8.23
+data-encoding	2.11.1	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/ia0/data-encoding	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: data-encoding@2.11.1
+dirs-sys	0.5.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/dirs-dev/dirs-sys-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: dirs-sys@0.5.0
+dirs	6.0.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/soc/dirs-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: dirs@6.0.0
+email_address	0.2.9	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/johnstonskj/rust-email_address.git	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: email_address@0.2.9
+erased-serde	0.4.10	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/dtolnay/erased-serde	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: erased-serde@0.4.10
+errno	0.3.14	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/lambda-fairy/rust-errno	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: errno@0.3.14
+fancy-regex	0.19.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/fancy-regex/fancy-regex	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: fancy-regex@0.19.0
+fastrand	2.5.0	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/smol-rs/fastrand	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: fastrand@2.5.0
+fdeflate	0.3.7	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/image-rs/fdeflate	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: fdeflate@0.3.7
+flate2	1.1.10	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/flate2-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: flate2@1.1.10
+fluent-uri	0.4.1	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/yescallop/fluent-uri-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: fluent-uri@0.4.1
+foldhash	0.2.0	Zlib	RUST	FINAL_MACOS_LINK	YES	https://github.com/orlp/foldhash	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: foldhash@0.2.0
+form_urlencoded	1.2.2	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/servo/rust-url	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: form_urlencoded@1.2.2
+futures-channel	0.3.34	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/futures-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: futures-channel@0.3.34
+futures-core	0.3.34	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/futures-rs	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: futures-core@0.3.34
+generic-array	0.14.7	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/fizyk20/generic-array.git	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: generic-array@0.14.7
+getrandom	0.3.4	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-random/getrandom	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: getrandom@0.3.4
+getrandom	0.4.3	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-random/getrandom	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: getrandom@0.4.3
+glob	0.3.4	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/glob	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: glob@0.3.4
+http	1.5.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/hyperium/http	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: http@1.5.0
+httparse	1.10.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/seanmonstar/httparse	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: httparse@1.10.1
+hyper-rustls	0.27.9	Apache-2.0 OR ISC OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/rustls/hyper-rustls	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: hyper-rustls@0.27.9
+hyper-util	0.1.20	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/hyperium/hyper-util	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: hyper-util@0.1.20
+hyper	1.11.1	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/hyperium/hyper	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: hyper@1.11.1
+icu_collections	2.3.0	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: icu_collections@2.3.0
+icu_locale_core	2.3.0	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: icu_locale_core@2.3.0
+icu_normalizer	2.3.0	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: icu_normalizer@2.3.0
+icu_provider	2.3.1	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: icu_provider@2.3.1
+idna	1.1.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/servo/rust-url/	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: idna@1.1.0
+image-webp	0.2.4	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/image-rs/image-webp	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: image-webp@0.2.4
+image	0.25.10	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/image-rs/image	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: image@0.25.10
+infer	0.19.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/bojand/infer	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: infer@0.19.0
+ipnet	2.12.2	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/krisprice/ipnet	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: ipnet@2.12.2
+itoa	1.0.18	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/dtolnay/itoa	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: itoa@1.0.18
+json-patch	3.0.1	MIT/Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/idubrov/json-patch	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: json-patch@3.0.1
+jsonptr	0.6.3	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/chanced/jsonptr	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: jsonptr@0.6.3
+jsonschema-regex	0.54.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/Stranger6667/jsonschema	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: jsonschema-regex@0.54.0
+jsonschema-value	0.54.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/Stranger6667/jsonschema	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: jsonschema-value@0.54.0
+jsonschema	0.54.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/Stranger6667/jsonschema	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: jsonschema@0.54.0
+libsqlite3-sys	0.38.2	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/rusqlite/rusqlite	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: libsqlite3-sys@0.38.2
+log	0.4.34	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/log	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: log@0.4.34
+memchr	2.8.3	Unlicense OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/BurntSushi/memchr	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: memchr@2.8.3
+mime	0.3.17	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/hyperium/mime	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: mime@0.3.17
+miniz_oxide	0.9.1	MIT OR Zlib OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/Frommi/miniz_oxide/tree/master/miniz_oxide	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: miniz_oxide@0.9.1
+mio	1.2.3	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tokio-rs/mio	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: mio@1.2.3
+moxcms	0.8.1	BSD-3-Clause OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/awxkee/moxcms.git	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: moxcms@0.8.1
+muda	0.19.3	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/muda	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: muda@0.19.3
+num-bigint	0.4.8	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-num/num-bigint	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: num-bigint@0.4.8
+num-integer	0.1.47	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-num/num-integer	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: num-integer@0.1.47
+objc2-app-kit	0.3.2	Zlib OR Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: objc2-app-kit@0.3.2
+objc2-encode	4.1.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: objc2-encode@4.1.0
+objc2-exception-helper	0.1.1	Zlib OR Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: objc2-exception-helper@0.1.1
+objc2-foundation	0.3.2	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: objc2-foundation@0.3.2
+objc2-web-kit	0.3.2	Zlib OR Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: objc2-web-kit@0.3.2
+objc2	0.6.4	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/madsmtm/objc2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: objc2@0.6.4
+once_cell	1.21.4	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/matklad/once_cell	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: once_cell@1.21.4
+parking_lot_core	0.9.12	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/Amanieu/parking_lot	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: parking_lot_core@0.9.12
+parking_lot	0.12.5	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/Amanieu/parking_lot	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: parking_lot@0.12.5
+percent-encoding	2.3.2	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/servo/rust-url/	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: percent-encoding@2.3.2
+plist	1.10.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/ebarnard/rust-plist/	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: plist@1.10.0
+png	0.18.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/image-rs/image-png	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: png@0.18.1
+potential_utf	0.1.6	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: potential_utf@0.1.6
+pxfm	0.1.30	BSD-3-Clause OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/awxkee/pxfm	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: pxfm@0.1.30
+quick-xml	0.41.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tafia/quick-xml	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: quick-xml@0.41.0
+raw-window-handle	0.6.2	MIT OR Apache-2.0 OR Zlib	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-windowing/raw-window-handle	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: raw-window-handle@0.6.2
+referencing	0.54.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/Stranger6667/jsonschema	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: referencing@0.54.0
+regex-automata	0.4.18	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/regex	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: regex-automata@0.4.18
+regex-syntax	0.8.11	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/regex	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: regex-syntax@0.8.11
+regex	1.13.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/regex	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: regex@1.13.1
+reqwest	0.13.4	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/seanmonstar/reqwest	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: reqwest@0.13.4
+rfd	0.16.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/PolyMeilex/rfd	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rfd@0.16.0
+rusqlite	0.40.2	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/rusqlite/rusqlite	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rusqlite@0.40.2
+rustix	1.1.4	Apache-2.0 WITH LLVM-exception OR Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/bytecodealliance/rustix	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rustix@1.1.4
+rustls-pki-types	1.15.1	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rustls/pki-types	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rustls-pki-types@1.15.1
+rustls-platform-verifier	0.7.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rustls/rustls-platform-verifier	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rustls-platform-verifier@0.7.0
+rustls-webpki	0.103.15	ISC	RUST	FINAL_MACOS_LINK	YES	https://github.com/rustls/webpki	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rustls-webpki@0.103.15
+rustls	0.23.45	Apache-2.0 OR ISC OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/rustls/rustls	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: rustls@0.23.45
+same-file	1.0.6	Unlicense/MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/BurntSushi/same-file	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: same-file@1.0.6
+security-framework-sys	2.17.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/kornelski/rust-security-framework	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: security-framework-sys@2.17.0
+security-framework	3.7.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/kornelski/rust-security-framework	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: security-framework@3.7.0
+semver	1.0.28	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/dtolnay/semver	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: semver@1.0.28
+serde_core	1.0.229	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/serde-rs/serde	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: serde_core@1.0.229
+serde_json	1.0.151	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/serde-rs/json	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: serde_json@1.0.151
+serde-untagged	0.1.9	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/dtolnay/serde-untagged	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: serde-untagged@0.1.9
+serde	1.0.229	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/serde-rs/serde	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: serde@1.0.229
+serialize-to-javascript	0.1.2	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/chippers/serialize-to-javascript	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: serialize-to-javascript@0.1.2
+sha2	0.10.9	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/RustCrypto/hashes	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: sha2@0.10.9
+simd-adler32	0.3.10	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/mcountryman/simd-adler32	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: simd-adler32@0.3.10
+socket2	0.6.5	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/rust-lang/socket2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: socket2@0.6.5
+tao	0.35.3	Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/tao	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tao@0.35.3
+tauri-plugin-dialog	2.7.3	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/plugins-workspace	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tauri-plugin-dialog@2.7.3
+tauri-plugin-fs	2.5.2	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/plugins-workspace	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tauri-plugin-fs@2.5.2
+tauri-runtime-wry	2.11.4	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/tauri	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tauri-runtime-wry@2.11.4
+tauri-runtime	2.11.3	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/tauri	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tauri-runtime@2.11.3
+tauri-utils	2.9.3	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/tauri	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tauri-utils@2.9.3
+tauri	2.11.5	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/tauri	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tauri@2.11.5
+tempfile	3.27.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/Stebalien/tempfile	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tempfile@3.27.0
+time	0.3.55	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/time-rs/time	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: time@0.3.55
+tokio	1.53.1	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tokio-rs/tokio	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tokio@1.53.1
+toml_datetime	1.1.1+spec-1.1.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/toml-rs/toml	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: toml_datetime@1.1.1+spec-1.1.0
+toml_parser	1.1.3+spec-1.1.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/toml-rs/toml	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: toml_parser@1.1.3+spec-1.1.0
+toml_writer	1.1.2+spec-1.1.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/toml-rs/toml	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: toml_writer@1.1.2+spec-1.1.0
+toml	1.1.5+spec-1.1.0	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/toml-rs/toml	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: toml@1.1.5+spec-1.1.0
+tower-http	0.6.11	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tower-rs/tower-http	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tower-http@0.6.11
+tower	0.5.3	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tower-rs/tower	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tower@0.5.3
+tracing-core	0.1.36	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tokio-rs/tracing	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tracing-core@0.1.36
+tracing	0.1.44	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tokio-rs/tracing	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tracing@0.1.44
+typed-path	0.12.3	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/chipsenkbeil/typed-path	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: typed-path@0.12.3
+unic-char-range	0.9.0	MIT/Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/open-i18n/rust-unic/	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: unic-char-range@0.9.0
+unic-ucd-ident	0.9.0	MIT/Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/open-i18n/rust-unic/	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: unic-ucd-ident@0.9.0
+unicode-normalization	0.1.25	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-rs/unicode-normalization	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: unicode-normalization@0.1.25
+untrusted	0.9.0	ISC	RUST	FINAL_MACOS_LINK	YES	https://github.com/briansmith/untrusted	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: untrusted@0.9.0
+url	2.5.8	MIT OR Apache-2.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/servo/rust-url	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: url@2.5.8
+urlpattern	0.3.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/denoland/rust-urlpattern	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: urlpattern@0.3.0
+utf8_iter	1.0.4	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/hsivonen/utf8_iter	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: utf8_iter@1.0.4
+uuid	1.26.0	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/uuid-rs/uuid	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: uuid@1.26.0
+walkdir	2.5.0	Unlicense/MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/BurntSushi/walkdir	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: walkdir@2.5.0
+want	0.3.1	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/seanmonstar/want	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: want@0.3.1
+window-vibrancy	0.6.0	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/tauri-plugin-vibrancy	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: window-vibrancy@0.6.0
+winnow	1.0.4	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/winnow-rs/winnow	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: winnow@1.0.4
+wry	0.55.1	Apache-2.0 OR MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/tauri-apps/wry	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: wry@0.55.1
+yoke	0.8.3	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: yoke@0.8.3
+zerotrie	0.2.5	Unicode-3.0	RUST	FINAL_MACOS_LINK	YES	https://github.com/unicode-org/icu4x	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: zerotrie@0.2.5
+zip	8.6.0	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/zip-rs/zip2	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: zip@8.6.0
+zmij	1.0.23	MIT	RUST	FINAL_MACOS_LINK	YES	https://github.com/dtolnay/zmij	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: zmij@1.0.23
+zune-core	0.5.3	MIT OR Apache-2.0 OR Zlib	RUST	FINAL_MACOS_LINK	YES	https://github.com/etemesi254/zune-image	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: zune-core@0.5.3
+zune-jpeg	0.5.15	MIT OR Apache-2.0 OR Zlib	RUST	FINAL_MACOS_LINK	YES	https://github.com/etemesi254/zune-image/tree/dev/crates/zune-jpeg	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: zune-jpeg@0.5.15
+tinyvec	1.13.2	Zlib OR Apache-2.0 OR MIT	RUST	LOCKED_NORMALIZATION_INLINE_OR_MACRO_TRANSITIVE	CONSERVATIVE_ATTRIBUTION	https://github.com/Lokathor/tinyvec	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tinyvec@1.13.2
+tinyvec_macros	0.1.1	MIT OR Apache-2.0 OR Zlib	RUST	LOCKED_NORMALIZATION_INLINE_OR_MACRO_TRANSITIVE	CONSERVATIVE_ATTRIBUTION	https://github.com/Soveu/tinyvec_macros	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: tinyvec_macros@0.1.1
+@tauri-apps/api	2.11.0	Apache-2.0 OR MIT	NPM	PRODUCTION_FRONTEND	YES	https://registry.npmjs.org/@tauri-apps/api/-/api-2.11.0.tgz	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: @tauri-apps/api@2.11.0
+react	19.2.8	MIT	NPM	PRODUCTION_FRONTEND	YES	https://registry.npmjs.org/react/-/react-19.2.8.tgz	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: react@19.2.8
+react-dom	19.2.8	MIT	NPM	PRODUCTION_FRONTEND	YES	https://registry.npmjs.org/react-dom/-/react-dom-19.2.8.tgz	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: react-dom@19.2.8
+scheduler	0.27.0	MIT	NPM	PRODUCTION_FRONTEND	YES	https://registry.npmjs.org/scheduler/-/scheduler-0.27.0.tgz	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: scheduler@0.27.0
+zod	4.5.4	MIT	NPM	PRODUCTION_FRONTEND	YES	https://registry.npmjs.org/zod/-/zod-4.5.4.tgz	OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv: zod@4.5.4

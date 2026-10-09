@@ -1,21 +1,7 @@
 # Open-source license bundle
 
-This directory contains only license, copyright, attribution, and public-domain evidence mapped to components actually present in the frozen PCKB candidate.
+This PCKB 0.7.0 macOS arm64 package retains verified historical component notices and adds exact locked upstream license texts for current macOS attribution. `LICENSE_INDEX.tsv` maps each component to complete license, copyright, and notice evidence by SHA-256. License texts are preserved byte-for-byte. Historical Windows notices are retained for reference only; no Windows 0.7.0 binary is distributed.
 
-`LICENSE_INDEX.tsv` maps every component to one or more exact evidence files. Identical files are stored once by SHA-256 and referenced by multiple component rows.
+`../MACOS_COMPONENT_INVENTORY.tsv` identifies current final-link Rust components, production frontend packages, and conservative inline/macro attribution for Unicode-normalization transitive dependencies. It does not confuse inline dependencies with separate loaded archives. Toolchain/runtime, AWS-LC, SQLite, and their existing full composite notices are retained. The objc2 SDK-derived-work uncertainty notice is retained unchanged and is not represented as a new legal resolution.
 
-Baseline: the verified PCKB 0.3.0 runtime bundle, plus the audited 0.4.0 image-decoding dependency delta.
-
-The component index includes the upstream objc2-family license text and its Apple SDK derivation notice. The notice records upstream uncertainty and does not state that redistribution is either legally confirmed or illegal.
-
-Windows preparation adds only confirmed candidate component mappings and exact
-upstream license texts. Identical content is reused by SHA-256; original license
-bytes are preserved and checked against the index. The original macOS
-notice set is retained. The candidate uses NSIS LZMA, not the bzip2 or zlib
-compression modules; only the relevant NSIS copyright/license/exception sections
-are retained for that delta.
-
-Windows release acceptance requires a fresh, installer-bound static-link map,
-private PDB provenance, payload attribution, and byte-identical installed legal
-files to pass the current-run closure gate. This is a technical distribution
-audit, not a formal legal opinion. No objc2 risk-resolution claim is made.
+Final-link evidence is retained privately; current package/version attribution is recorded in `../MACOS_COMPONENT_INVENTORY.tsv`. License evidence SHA-256 values remain in `LICENSE_INDEX.tsv`.

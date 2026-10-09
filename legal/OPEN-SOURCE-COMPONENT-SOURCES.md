@@ -1,6 +1,6 @@
 # Open-source component sources
 
-This document accompanies the PCKB 0.4.0 Public Preview release package.
+This document accompanies PCKB 0.7.0 Public Preview for macOS Apple Silicon (arm64).
 PCKB first-party source code is proprietary and is not included.
 
 The verified 0.3.0 binary audit found no MPL-covered component requiring
@@ -152,3 +152,16 @@ The private observer emits no application resources and does not change chunks.
 | rolldown | 1.2.7 | MIT | https://www.npmjs.com/package/rolldown/v/1.2.7 |
 | @oxc-project/runtime | 0.148.0 | MIT | https://www.npmjs.com/package/@oxc-project/runtime/v/0.148.0 |
 | Babel runtime helper origin | upstream patch unpublished; copied in OXC 0.148.0 | MIT, original Babel attribution retained | https://github.com/babel/babel/blob/v7.28.4/LICENSE |
+
+
+## PCKB 0.7.0 macOS attribution delta
+
+The previously verified attribution set is retained. The following exact locked packages add source ZIP export and canonical Unicode path collision checking. ZIP default features are disabled; only Stored ZIP is used. No optional ZIP compression or encryption dependency is enabled. Historical Windows component notices do not imply a Windows 0.7.0 release.
+
+| Component | Version | License | Exact upstream source |
+| --- | --- | --- | --- |
+| unicode-normalization | 0.1.25 | MIT OR Apache-2.0 | https://github.com/unicode-rs/unicode-normalization/tree/5a69b3bafb625caccdec7871a42bed0d9a6604d1 |
+| zip | 8.6.0 | MIT | https://github.com/zip-rs/zip2/tree/771dfc534d2614158af5497ea3dff4d4208d7db1 |
+| typed-path | 0.12.3 | MIT OR Apache-2.0 | https://github.com/chipsenkbeil/typed-path/tree/ec65f79eb1f61b0e11e70859b041a0a304c3a9ff |
+| tinyvec | 1.13.2 | Zlib OR Apache-2.0 OR MIT | https://github.com/Lokathor/tinyvec/tree/5ae3e523dd46392d45f929591889430d1438ae5e |
+| tinyvec_macros | 0.1.1 | MIT OR Apache-2.0 OR Zlib | https://github.com/Soveu/tinyvec_macros/tree/860c23a09d91c8b9203134a81de7888b7191d5f2 |

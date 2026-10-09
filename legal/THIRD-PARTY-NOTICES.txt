@@ -1,7 +1,8 @@
-PCKB THIRD-PARTY NOTICES — 0.4.0 PUBLIC PREVIEW
-Release: PCKB 0.4.0 Build 1 Public Preview
-Source commit: 6c2d1233d97711af2fc80d41aec455d88ba2c09a
-This file reuses the verified 0.3.0 runtime notice set and adds the audited 0.4.0 image-decoding dependency delta.
+PCKB THIRD-PARTY NOTICES — 0.7.0 PUBLIC PREVIEW — macOS Apple Silicon Only
+Release: PCKB 0.7.0 Build 1 Public Preview — macOS arm64
+Current macOS attribution: MACOS_COMPONENT_INVENTORY.tsv; previously verified notices retained for historical reference.
+This release retains previously verified third-party notices and supplements them with the current macOS arm64 component inventory below. Historical Windows notices are retained for reference; no Windows binary is shipped in 0.7.0.
+Historical evidence note: legacy FINAL_LINK_MAP line numbers, archive identities, and prior candidate evidence below describe previously verified releases, not the current 0.7.0 binary. Current macOS attribution is recorded separately in MACOS_COMPONENT_INVENTORY.tsv.
 
 objc2-family upstream notice
 ----------------------------
@@ -2465,3 +2466,43 @@ Copyright (c) 2014-present Sebastian McKenzie and other contributors.
 Attribution: The exact @oxc-project/runtime package README states that the helpers are copied from @babel/runtime and credits the Babel team. This attribution and Babel's original MIT text are retained independently of OXC's license.
 Source/license: https://github.com/babel/babel/blob/v7.28.4/LICENSE
 License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv.
+
+
+================================================================================
+PCKB 0.7.0 MACOS COMPONENT ATTRIBUTION DELTA
+================================================================================
+
+Component: unicode-normalization
+Version: 0.1.25
+Distribution: macOS arm64 final-link attribution.
+License: MIT OR Apache-2.0
+Source: https://github.com/unicode-rs/unicode-normalization/tree/5a69b3bafb625caccdec7871a42bed0d9a6604d1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: zip
+Version: 8.6.0
+Distribution: macOS arm64 final-link attribution.
+License: MIT
+Source: https://github.com/zip-rs/zip2/tree/771dfc534d2614158af5497ea3dff4d4208d7db1
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: typed-path
+Version: 0.12.3
+Distribution: macOS arm64 final-link attribution.
+License: MIT OR Apache-2.0
+Source: https://github.com/chipsenkbeil/typed-path/tree/ec65f79eb1f61b0e11e70859b041a0a304c3a9ff
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: tinyvec
+Version: 1.13.2
+Distribution: Conservative inline/macro attribution for the locked unicode-normalization transitive dependency; no standalone archive contribution is claimed.
+License: Zlib OR Apache-2.0 OR MIT
+Source: https://github.com/Lokathor/tinyvec/tree/5ae3e523dd46392d45f929591889430d1438ae5e
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+Component: tinyvec_macros
+Version: 0.1.1
+Distribution: Conservative inline/macro attribution for the locked unicode-normalization transitive dependency; no standalone archive contribution is claimed.
+License: MIT OR Apache-2.0 OR Zlib
+Source: https://github.com/Soveu/tinyvec_macros/tree/860c23a09d91c8b9203134a81de7888b7191d5f2
+License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv

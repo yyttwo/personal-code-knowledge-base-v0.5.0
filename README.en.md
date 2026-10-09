@@ -6,38 +6,40 @@ Turn the code you write, learn, and collect into a searchable personal knowledge
 
 [简体中文](README.md) | [English](README.en.md)
 
-**Public Preview · macOS Apple Silicon · Windows 11 x64 · Simplified Chinese + English**
+**PCKB 0.7.0 Public Preview · macOS Apple Silicon Only · Simplified Chinese + English**
+
+**v0.7.0 ships only for macOS Apple Silicon (arm64). No new Windows installer is provided.** The historical Windows v0.6.0 download remains available; it does not include all of the new AI Workbench features in this Mac release.
 
 ## Download
 
-**[PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)**
+**[PCKB 0.7.0 Public Preview — macOS Apple Silicon Only](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.0)**
 
 | Platform | Requirements | Download |
 | --- | --- | --- |
-| macOS | Apple Silicon arm64 · macOS 11.0+ | [macOS ZIP](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip) |
-| Windows | Windows 11 x64 | [Windows installer](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe) |
+| macOS · v0.7.0 | Apple Silicon arm64 · macOS 11.0+ | [macOS ZIP](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.0/PCKB-0.7.0-Public-Preview-macOS-arm64.zip) |
+| Windows · historical v0.6.0 | Windows 11 x64 | [Historical Windows installer](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe) |
 
-Verify either file against [SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt) from this release before installing. GitHub's automatic Source code archives contain this downloads/documentation repository, not PCKB application source.
+Verify the new Mac ZIP against [v0.7.0 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.0/SHA256SUMS.txt). Verify the historical Windows installer against [v0.6.0 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt). GitHub's automatic Source code archives contain this downloads/documentation repository, not PCKB application source.
 
 PCKB helps you keep code you have written, useful implementations from projects, and examples collected while learning. Store code together with its purpose, notes, tags, Projects, and learning records. Find it again with keywords and structured filters, or configure an embedding model for semantic search when you remember the idea but not the name.
 
-You can use it as a local code knowledge base first and enable AI explanations, suggestions, or chat when needed. Core library management, keyword search, learning, backups, and Trash do not require AI. macOS and Windows share the same product interface, and libraries stay in a folder you choose; cloud AI is an optional user-selected enhancement.
+You can use it as a local code knowledge base first and enable AI explanations, suggestions, or the Workbench when needed. Core library management, keyword search, asset learning records, backups, and Trash do not require AI. Libraries stay in a folder you choose; cloud AI is an optional user-selected enhancement. AI Workbench V1 is new to Mac v0.7.0 and is not a claim of feature parity with historical Windows v0.6.0.
 
 PCKB is under active development. This repository is the public binary release repository; it does not contain the product's core source code.
 
 ### macOS — Apple Silicon
 
-Apple Silicon / arm64, macOS 11.0 or later: [PCKB-0.6.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-macOS-arm64.zip).
+Apple Silicon / arm64, macOS 11.0 or later: [PCKB-0.7.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.0/PCKB-0.7.0-Public-Preview-macOS-arm64.zip).
 
 The macOS build is ad hoc signed, **not** Apple Developer ID signed or notarized. See [INSTALL_MACOS.md](INSTALL_MACOS.md).
 
-Download the ZIP, run `shasum -a 256 PCKB-0.6.0-Public-Preview-macOS-arm64.zip`, compare the hash, extract `PCKB.app`, and drag it into Applications. Only after verifying the official source and hash, use Finder → Applications → Control-click PCKB → Open → confirm Open if offered; otherwise use System Settings → Privacy & Security → Open Anyway. Do not disable system protection. Quit the old App before replacing it for an update; keep your external Library. See the installation guide for detailed steps and Apple's safety guidance.
+Download the ZIP, run `shasum -a 256 PCKB-0.7.0-Public-Preview-macOS-arm64.zip`, compare the hash, extract `PCKB.app`, and drag it into Applications. Only after verifying the official source and hash, use Finder → Applications → Control-click PCKB → Open → confirm Open if offered; otherwise use System Settings → Privacy & Security → Open Anyway. Do not disable system protection. Quit the old App before replacing it for an update; keep your external Library. See the installation guide for detailed steps and Apple's safety guidance.
 
-### Windows 11 x64
+### Windows 11 x64 — historical v0.6.0
 
 Windows 11 / x64: [PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe).
 
-The NSIS installer is **not** Authenticode signed, so SmartScreen may warn about an unknown publisher. See [INSTALL_WINDOWS.md](INSTALL_WINDOWS.md). Verify either download against `SHA256SUMS.txt` in the same release.
+There is no Windows v0.7.0 installer. The v0.6.0 download and installation guide remain available. That NSIS installer is **not** Authenticode signed, so SmartScreen may warn about an unknown publisher. See [INSTALL_WINDOWS.md](INSTALL_WINDOWS.md) and use `SHA256SUMS.txt` from v0.6.0 for this Windows file.
 
 Download Setup.exe and run `Get-FileHash ".\PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe" -Algorithm SHA256`. Expected hash: `27fce8290fd42bfd9a6ec7bdf37b44179012e9a505469522ccfc1c6ca76b7a55`. Only after confirming the official source and hash, use More info → Run anyway if SmartScreen warns. Never disable Defender or SmartScreen. If Already Installed appears, choose Uninstall before installing and leave Delete the application data unchecked. Keep the installer default location. On the completion page, Run PCKB may stay selected; Create desktop shortcut is optional. Click Finish. If Microsoft Edge WebView2 Runtime is not already available, the installer may need network access to obtain the required runtime. Keep normal backups of your external Library.
 
@@ -45,7 +47,7 @@ Download Setup.exe and run `Get-FileHash ".\PCKB-0.6.0-Public-Preview-Windows-x6
 
 The images below are real PCKB screenshots from a synthetic demo library. Personal local paths are covered with opaque rectangles; no product controls or other content were changed.
 
-Product screenshots are from the macOS version. The Windows version uses the same core PCKB interface and workflows; platform-native installation and system dialogs may differ.
+These approved screenshots are from an earlier macOS version and illustrate existing library features, not the full new AI Workbench. Historical Windows v0.6.0 retains its original core library features; the new Mac Workbench features should not be assumed to exist in that Windows release.
 
 ## Features
 
@@ -54,8 +56,22 @@ Product screenshots are from the macOS version. The Windows version uses the sam
 - Full-text and structured search
 - Optional semantic/hybrid search and related-code discovery
 - Safe single-file import, recoverable Trash, and local backup/restore
-- AI code actions and AI Chat
+- AI code actions and the new AI Workbench V1 in Mac v0.7.0
 - Custom App backgrounds stored locally
+
+## AI Workbench V1 — Mac v0.7.0
+
+- **Ask:** AI questions and conversation.
+- **Code:** find problems, explain code, and preview proposed changes; explicitly apply them to a local working copy, undo, and copy the code.
+- **Project:** requirements → plan → file generation → review → folder or source ZIP export.
+- **Learning:** graded hints, explanation before code, reference answers, and student-code review.
+- **PCKB Knowledge:** explicitly select existing code assets as AI context and inspect their reference sources in the answer.
+- **Save to PCKB:** preview and create a new asset, with identical-code detection to avoid duplicates. Update existing assets through All Assets → Edit instead.
+- Recover deleted Workbench sessions through Session Trash. This release also improves code-language detection, Markdown tables, and code-review filenames.
+
+The Workbench has independently saved DeepSeek or Qwen provider/model settings. Cloud features require the user's own supported API key. Changes do not automatically overwrite original files, and PCKB **does not execute generated code**. Copy or export it to your own development environment for review and execution.
+
+OpenCodeReview deep project review is not included in this release.
 
 ## Screenshots
 
@@ -81,7 +97,7 @@ Product screenshots are from the macOS version. The Windows version uses the sam
 
 ![Local App background settings](screenshots/public/08-app-background.png)
 
-AI Chat remains available but is not shown in this approved screenshot set.
+The retained screenshot set covers existing library, settings, and appearance workflows. See the Workbench overview above and the [user guide](USER_GUIDE.md) for the new workflows.
 
 ## AI options
 
@@ -89,6 +105,7 @@ AI Chat remains available but is not shown in this approved screenshot set.
 - **DeepSeek API:** optional BYOK Generation and AI Chat
 - **Qwen API:** optional BYOK Generation, AI Chat, and Embedding
 - Generation and Embedding providers are configured independently
+- AI Workbench V1 uses separate DeepSeek / Qwen settings and does not automatically switch to another provider
 - API credentials use macOS Keychain on Mac and Windows Credential Manager on Windows
 - There is no automatic cloud-provider fallback
 
@@ -98,11 +115,11 @@ The App includes the built-in PCKB night-lake background. You can choose a local
 
 ## Quick Start
 
-1. Download the macOS ZIP or Windows installer above and verify its SHA-256.
-2. Follow the [macOS](INSTALL_MACOS.md) or [Windows](INSTALL_WINDOWS.md) installation guide.
+1. For the new Mac release, download v0.7.0; for Windows, use historical v0.6.0. Verify against the matching release's SHA-256 file.
+2. Follow the [macOS](INSTALL_MACOS.md) or [historical Windows](INSTALL_WINDOWS.md) installation guide.
 3. Open PCKB and create or open a local library.
 
-Windows users can follow the [download, installation, and first-use guide](INSTALL_WINDOWS.md). Start by saving one code asset with its purpose and tags, then try search, Project organization, and learning status. Configure Ollama, DeepSeek, or Qwen later if you want AI assistance.
+Windows users can follow the [historical v0.6.0 download, installation, and first-use guide](INSTALL_WINDOWS.md). Start by saving one code asset with its purpose and tags, then try search, Project organization, and learning status. On Mac, configure the new Workbench provider, model, and API credentials under Settings → AI Workbench when needed.
 
 ## Privacy
 
@@ -110,6 +127,7 @@ The library is primarily stored in ordinary files at a local folder selected by 
 
 ## Documentation
 
+- [v0.7.0 release notes](RELEASE_NOTES_V0.7.0.md)
 - [macOS installation](INSTALL_MACOS.md)
 - [Windows installation](INSTALL_WINDOWS.md)
 - [User guide](USER_GUIDE.md)
@@ -121,7 +139,7 @@ The library is primarily stored in ordinary files at a local folder selected by 
 
 PCKB Public Preview currently does not include automatic updates. New versions should be downloaded from the [official GitHub Releases page](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases).
 
-PCKB 0.6.0 is a Public Preview. Core workflows have been tested on supported platforms, but the product is still under active development.
+PCKB 0.7.0 is a macOS Apple Silicon-only Public Preview. The product is still under active development; a new Windows release has not been published.
 
 PCKB is local-first. Your Library stays under your control. Optional AI features may use the provider you configure. PCKB application source code is currently private. This public repository is used for official downloads, documentation, screenshots, and release information.
 
@@ -132,23 +150,25 @@ PCKB is distributed as proprietary freeware under the [PCKB EULA](legal/PCKB-EUL
 ## Known limitations
 
 - macOS: Apple Silicon (arm64) only; no Apple Developer ID signature or notarization. Intel Mac is not supported.
-- Windows: Windows 11 x64 only; the installer is unsigned and SmartScreen may warn. Windows 10 and ARM64 are not supported targets.
+- No Windows v0.7.0 is provided. Historical Windows v0.6.0 targets Windows 11 x64 only; its unsigned installer may trigger SmartScreen. Windows 10 and ARM64 are not supported targets.
 - No cloud sync, automatic updates, folder batch import, Git/GitHub sync, VS Code extension, or code execution.
 - Ollama models must be installed and managed separately. DeepSeek and Qwen require the user's own API key, network access, and service quota.
 - This is an active-development Public Preview, not a stable or feature-complete release.
+- OpenCodeReview deep project review is not included.
 
 ## Previous Releases
 
 PCKB follows an iterative preview release model. Older versions remain available for rollback and historical reference.
 
-- [v0.5.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.5.0) — Previous public preview
+- [v0.6.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0) — Historical macOS and Windows 11 x64 release; the current download for Windows users
+- [v0.5.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.5.0) — Earlier public preview
 - [v0.4.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) — First public preview
 - [v0.3.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.3.0) — AI Multi-Provider release
 - [v0.2.2](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.2) — Feedback workflow update
 - [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — Previous public release
 - [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — Initial public release
 
-For new installations, use [PCKB 0.6.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0) unless you specifically need an older version.
+For new Mac installations, use [PCKB 0.7.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.0). Windows users should continue to use historical [v0.6.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0).
 
 ## License
 
