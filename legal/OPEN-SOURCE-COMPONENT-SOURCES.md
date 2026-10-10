@@ -1,6 +1,6 @@
 # Open-source component sources
 
-This document accompanies PCKB 0.7.0 Public Preview for macOS Apple Silicon (arm64).
+This document accompanies PCKB 0.7.1 Public Preview for macOS Apple Silicon (arm64).
 PCKB first-party source code is proprietary and is not included.
 
 The verified 0.3.0 binary audit found no MPL-covered component requiring
@@ -165,3 +165,5 @@ The previously verified attribution set is retained. The following exact locked 
 | typed-path | 0.12.3 | MIT OR Apache-2.0 | https://github.com/chipsenkbeil/typed-path/tree/ec65f79eb1f61b0e11e70859b041a0a304c3a9ff |
 | tinyvec | 1.13.2 | Zlib OR Apache-2.0 OR MIT | https://github.com/Lokathor/tinyvec/tree/5ae3e523dd46392d45f929591889430d1438ae5e |
 | tinyvec_macros | 0.1.1 | MIT OR Apache-2.0 OR Zlib | https://github.com/Soveu/tinyvec_macros/tree/860c23a09d91c8b9203134a81de7888b7191d5f2 |
+
+PCKB 0.7.1 attribution scope: this UI-only patch uses the same exact third-party dependency versions as 0.7.0. The verified component inventory and complete license texts are retained unchanged. No Windows binary is shipped in 0.7.1.

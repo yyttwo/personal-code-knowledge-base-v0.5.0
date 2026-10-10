@@ -1,5 +1,5 @@
-PCKB THIRD-PARTY NOTICES — 0.7.0 PUBLIC PREVIEW — macOS Apple Silicon Only
-Release: PCKB 0.7.0 Build 1 Public Preview — macOS arm64
+PCKB THIRD-PARTY NOTICES — 0.7.1 PUBLIC PREVIEW — macOS Apple Silicon Only
+Release: PCKB 0.7.1 Build 1 Public Preview — macOS arm64
 Current macOS attribution: MACOS_COMPONENT_INVENTORY.tsv; previously verified notices retained for historical reference.
 This release retains previously verified third-party notices and supplements them with the current macOS arm64 component inventory below. Historical Windows notices are retained for reference; no Windows binary is shipped in 0.7.0.
 Historical evidence note: legacy FINAL_LINK_MAP line numbers, archive identities, and prior candidate evidence below describe previously verified releases, not the current 0.7.0 binary. Current macOS attribution is recorded separately in MACOS_COMPONENT_INVENTORY.tsv.
@@ -26,6 +26,8 @@ Attribution: Exact upstream license text is preserved verbatim; packaged evidenc
 Source: https://github.com/tkaitchuck/ahash
 Evidence: FINAL_LINK_MAP lines 103-103; final-link archive: libahash-dd938207c17a30ff.rlib
 License files: see OPEN-SOURCE-LICENSES/LICENSE_INDEX.tsv
+
+PCKB 0.7.1 attribution scope: this UI-only patch uses the same exact third-party dependency versions as 0.7.0. The verified component inventory and complete license texts are retained unchanged. No Windows binary is shipped in 0.7.1.
 
 
 Component: aho-corasick

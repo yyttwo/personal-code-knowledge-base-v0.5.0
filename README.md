@@ -8,38 +8,38 @@ Personal Code Knowledge Base · 个人代码知识库
 
 [简体中文](README.md) | [English](README.en.md)
 
-**PCKB 0.7.0 Public Preview · macOS Apple Silicon Only · 简体中文 + English**
+**PCKB 0.7.1 Public Preview · macOS Apple Silicon Only · 简体中文 + English**
 
-**本次 v0.7.0 仅提供 macOS Apple Silicon（arm64）安装包，不提供 Windows 新版本。** Windows 用户仍可下载历史 v0.6.0；该版本不包含此次新增的全部 AI Workbench 功能。
+**本次 v0.7.1 仅提供 macOS Apple Silicon（arm64）安装包，不提供 Windows 新版本。** Windows 用户仍可下载历史 v0.6.0；该版本不包含此次新增的全部 AI Workbench 功能。
 
 ## Download / 下载
 
-**[PCKB 0.7.0 Public Preview — macOS Apple Silicon Only](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.0)**
+**[PCKB 0.7.1 Public Preview — macOS Apple Silicon Only](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.1)**
 
 | 平台 / Platform | 系统要求 / Requirements | 下载 / Download |
 | --- | --- | --- |
-| macOS · v0.7.0 | Apple Silicon arm64 · macOS 11.0+ | [macOS ZIP](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.0/PCKB-0.7.0-Public-Preview-macOS-arm64.zip) |
+| macOS · v0.7.1 | Apple Silicon arm64 · macOS 11.0+ | [macOS ZIP](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.1/PCKB-0.7.1-Public-Preview-macOS-arm64.zip) |
 | Windows · 历史 v0.6.0 | Windows 11 x64 | [历史 Windows 安装程序](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe) |
 
-安装新版 Mac 包前，请核对 [v0.7.0 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.0/SHA256SUMS.txt)。历史 Windows 包必须使用 [v0.6.0 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt)。GitHub 自动提供的 Source code archive 仅是这个下载与文档仓库的归档，不是 PCKB 应用源码。
+安装新版 Mac 包前，请核对 [v0.7.1 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.1/SHA256SUMS.txt)。历史 Windows 包必须使用 [v0.6.0 SHA256SUMS.txt](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/SHA256SUMS.txt)。GitHub 自动提供的 Source code archive 仅是这个下载与文档仓库的归档，不是 PCKB 应用源码。
 
 PCKB 适合保存自己写过的代码片段、项目中值得复用的实现，以及学习过程中收藏的示例。每条代码可以连同用途、笔记、标签、Project 和学习记录一起整理；以后既能按关键词查找，也能在配置向量模型后用语义搜索找回“记得意思、忘了名字”的代码。
 
-你可以先把它当作纯本地代码知识库使用，再按需要开启 AI 讲解、改进建议或工作台。普通代码库管理、全文与结构化搜索、资产学习记录、备份和废纸篓不要求配置 AI。数据由用户保存在自己选择的位置；云端 AI 是用户主动选择的增强功能。v0.7.0 新增的 AI Workbench V1 本次仅在 Mac 版提供，不代表历史 Windows v0.6.0 具有相同的新功能。
+你可以先把它当作纯本地代码知识库使用，再按需要开启 AI 讲解、改进建议或工作台。普通代码库管理、全文与结构化搜索、资产学习记录、备份和废纸篓不要求配置 AI。数据由用户保存在自己选择的位置；云端 AI 是用户主动选择的增强功能。v0.7.1 新增的 AI Workbench V1 本次仅在 Mac 版提供，不代表历史 Windows v0.6.0 具有相同的新功能。
 
 ### macOS — Apple Silicon
 
-Apple Silicon / arm64，macOS 11.0 或更高版本：[PCKB-0.7.0-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.0/PCKB-0.7.0-Public-Preview-macOS-arm64.zip)。
+Apple Silicon / arm64，macOS 11.0 或更高版本：[PCKB-0.7.1-Public-Preview-macOS-arm64.zip](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.7.1/PCKB-0.7.1-Public-Preview-macOS-arm64.zip)。
 
 使用 ad hoc 签名，**没有** Apple Developer ID 签名或 Apple 公证。安装说明：[INSTALL_MACOS.md](INSTALL_MACOS.md)。
 
-下载 ZIP → 在终端运行 `shasum -a 256 PCKB-0.7.0-Public-Preview-macOS-arm64.zip` 并与校验文件比较 → 解压得到 `PCKB.app` → 拖入 Applications / 应用程序 → 打开。若首次启动被系统拦截，仅在官方来源与 SHA256 都确认后，使用 Finder 中 Control-click / 右键 → Open / 打开 → 再确认打开（若系统提供该选项），或系统设置 → 隐私与安全性 → 仍要打开。不要关闭系统安全保护。更新时先退出旧 App，再替换 App，保留外部 Library；完整步骤见安装说明。
+下载 ZIP → 在终端运行 `shasum -a 256 PCKB-0.7.1-Public-Preview-macOS-arm64.zip` 并与校验文件比较 → 解压得到 `PCKB.app` → 拖入 Applications / 应用程序 → 打开。若首次启动被系统拦截，仅在官方来源与 SHA256 都确认后，使用 Finder 中 Control-click / 右键 → Open / 打开 → 再确认打开（若系统提供该选项），或系统设置 → 隐私与安全性 → 仍要打开。不要关闭系统安全保护。更新时先退出旧 App，再替换 App，保留外部 Library；完整步骤见安装说明。
 
 ### Windows 11 x64 — 历史 v0.6.0
 
 Windows 11 / x64：[PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/download/v0.6.0/PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe)。
 
-本次没有 Windows v0.7.0 安装包；下列 v0.6.0 下载与安装说明继续保留。历史 NSIS 安装器**没有** Windows 代码签名，SmartScreen 可能提示未知发布者。安装说明：[INSTALL_WINDOWS.md](INSTALL_WINDOWS.md)。请使用 v0.6.0 Release 内的 `SHA256SUMS.txt` 校验此 Windows 包。
+本次没有 Windows v0.7.1 安装包；下列 v0.6.0 下载与安装说明继续保留。历史 NSIS 安装器**没有** Windows 代码签名，SmartScreen 可能提示未知发布者。安装说明：[INSTALL_WINDOWS.md](INSTALL_WINDOWS.md)。请使用 v0.6.0 Release 内的 `SHA256SUMS.txt` 校验此 Windows 包。
 
 下载 Setup.exe → 在 PowerShell 运行 `Get-FileHash ".\PCKB-0.6.0-Public-Preview-Windows-x64-Setup.exe" -Algorithm SHA256` → 确认结果为 `27fce8290fd42bfd9a6ec7bdf37b44179012e9a505469522ccfc1c6ca76b7a55` → 安装。仅在官方来源与哈希匹配后，才使用 SmartScreen 的“更多信息 → 仍要运行”；不要关闭 Defender 或 SmartScreen。若提示 Already Installed，选择 Uninstall before installing，且不要勾选 Delete the application data；保持安装器默认目录。完成页可保留 Run PCKB，桌面快捷方式按需选择，再点击 Finish。缺少 WebView2 Runtime 时安装器可能需要联网下载。外部 Library 与安装目录分离，请保留正常备份；完整步骤见安装说明。
 
@@ -50,6 +50,12 @@ PCKB 仍在持续开发中。本仓库是公开二进制发布仓库，不包含
 以下均为使用虚构演示代码库拍摄的真实 PCKB 截图。本机私人路径已用不透明色块遮挡，其他产品内容未修改。
 
 这些已审核的截图来自此前 macOS 版本，展示已有资产库功能，不是新版 AI Workbench 的完整截图。历史 Windows v0.6.0 的原有核心资产库功能仍可使用；本次 Mac 的新增工作台功能不能据此视为 Windows 已支持。
+
+## v0.7.1 修复
+
+- 修复 AI 工作台会话 `⋯` 菜单重叠、残留及列表边缘裁切。
+- 同时只显示一个菜单，切换菜单、点击外部、Esc、滚动或调整窗口时正确关闭。
+- 重命名、会话废纸篓及恢复行为保持不变；没有新增 AI 功能或数据库格式变更。
 
 ## 功能
 
@@ -116,7 +122,7 @@ App 提供内置 PCKB 夜湖背景，也支持选择本地图片，调整遮罩�
 
 ## 快速开始
 
-1. 新版 Mac 用户下载上方 v0.7.0 ZIP；Windows 用户下载历史 v0.6.0 安装器。分别核对对应 Release 的 SHA-256。
+1. 新版 Mac 用户下载上方 v0.7.1 ZIP；Windows 用户下载历史 v0.6.0 安装器。分别核对对应 Release 的 SHA-256。
 2. 按 [macOS 安装说明](INSTALL_MACOS.md) 或[历史 Windows 安装说明](INSTALL_WINDOWS.md)安装。
 3. 打开 PCKB，创建或打开本地代码库。
 
@@ -132,10 +138,11 @@ PCKB 应用源码当前保持私有。本公开仓库仅用于官方下载安装
 
 PCKB Public Preview 当前不包含自动更新。新版本请从[官方 GitHub Releases 页面](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases)重新下载安装。
 
-PCKB 0.7.0 为仅面向 macOS Apple Silicon 的 Public Preview（公开预览版）。产品仍在持续开发中；Windows 新版尚未发布。
+PCKB 0.7.1 为仅面向 macOS Apple Silicon 的 Public Preview（公开预览版）。产品仍在持续开发中；Windows 新版尚未发布。
 
 ## 文档
 
+- [v0.7.1 Release Notes](RELEASE_NOTES_V0.7.1.md)
 - [v0.7.0 Release Notes](RELEASE_NOTES_V0.7.0.md)
 - [macOS 安装说明](INSTALL_MACOS.md)
 - [Windows 安装说明](INSTALL_WINDOWS.md)
@@ -151,7 +158,7 @@ PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [P
 ## 已知限制
 
 - macOS 仅支持 Apple Silicon（arm64），没有 Apple Developer ID 签名或 Apple 公证；当前不支持 Intel Mac。
-- 本次不提供 Windows v0.7.0。历史 v0.6.0 仅支持 Windows 11 x64，安装器未做代码签名，SmartScreen 可能提示未知发布者；当前不承诺 Windows 10 或 ARM64。
+- 本次不提供 Windows v0.7.1。历史 v0.6.0 仅支持 Windows 11 x64，安装器未做代码签名，SmartScreen 可能提示未知发布者；当前不承诺 Windows 10 或 ARM64。
 - 不提供云同步、自动更新、文件夹批量导入、Git/GitHub 同步、VS Code 扩展或代码执行。
 - Ollama 模型需要用户自行安装和管理；DeepSeek 与 Qwen 需要用户自己的 API Key、网络连接及服务额度。
 - 当前是持续开发中的公开预览版，不是稳定版或功能完整版本。
@@ -161,6 +168,7 @@ PCKB 以专有免费软件形式分发。下载、安装或使用 PCKB 均受 [P
 
 PCKB 采用持续迭代的预览版发布方式。旧版本保留用于回退与历史参考。
 
+- [v0.7.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.0) — Mac AI Workbench V1 首版；保留用于回退
 - [v0.6.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0) — macOS 与 Windows 11 x64 历史版本；Windows 用户继续使用此版本
 - [v0.5.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.5.0) — 较早公开预览版本
 - [v0.4.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.4.0) — 首个公开预览版本
@@ -169,7 +177,7 @@ PCKB 采用持续迭代的预览版发布方式。旧版本保留用于回退与
 - [v0.2.1](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.2.1) — 先前公开版本
 - [v0.1.0](https://github.com/yyttwo/personal-code-knowledge-base-releases/releases/tag/v0.1.0) — 首个公开版本
 
-Mac 新安装请使用 [PCKB 0.7.0 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.0)；Windows 用户继续使用历史 [v0.6.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)。
+Mac 新安装请使用 [PCKB 0.7.1 Public Preview](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.7.1)；Windows 用户继续使用历史 [v0.6.0](https://github.com/yyttwo/personal-code-knowledge-base-v0.5.0/releases/tag/v0.6.0)。
 
 ## 许可
 
